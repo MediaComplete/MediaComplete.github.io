@@ -1,0 +1,52 @@
+body {
+  background-color: #CCCCCC;
+  font-family: Sans-Serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,div {
+  color: #2D2D30;
+}
+
+.center {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.logo {
+  height: 300px;
+  width: auto;
+}
+
+.center h1 {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: #20B2AA;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.panel {
+  padding: 20px;
+  background-color: #F0EFF1;
+}
+
+.download {
+  background-color: #2D2D30;
+  color: #CCCCCC;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.download:hover {
+  text-decoration: underline;
+}
+
+.link {
+  color: #20B2AA;
+}
