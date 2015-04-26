@@ -5,6 +5,7 @@
 body {
   background-color: #A8A8B0;
   font-family: Sans-Serif;
+  margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6,p,span,div {
@@ -61,4 +62,15 @@ h1,h2,h3,h4,h5,h6,p,span,div {
 
 #info {
   height: 500px;
+}
+
+#footer {
+  width: 100%;
+  background-color: #2D2D30;
+  color: #CCCCCC;
+  padding: 20px;
+}
+
+.legalese {
+  font-size: 0.8em;
 }
