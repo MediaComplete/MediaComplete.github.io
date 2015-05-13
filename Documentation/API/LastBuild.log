@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="2015.5.2.0" projectFile="C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Documentation.shfbproj" started="5/13/2015 3:18:47 PM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+   C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2015.5.2.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\MSOE.MediaComplete.Lib\MSOE.MediaComplete.Lib.csproj
+    Found project &#39;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\MSOE.MediaComplete.Lib\MSOE.MediaComplete.Lib.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\MSOE.MediaComplete.Lib\bin\x86\Debug\MSOE.MediaComplete.Lib.dll&#39;
+
+References to include (excluding framework assemblies):
+    M3U.NET, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL
+    NAudio, Version=1.7.3.0, Culture=neutral, processorArchitecture=MSIL
+    NAudio.WindowsMediaFormat
+    Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
+    policy.2.0.taglib-sharp
+    taglib-sharp
+
+Copying XML comments files
+    C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\MSOE.MediaComplete.Lib\bin\x86\Debug\MSOE.MediaComplete.Lib.XML -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\MSOE.MediaComplete.Lib.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Build started 5/13/2015 3:18:48 PM.
+Project &quot;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2015.5.2.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 7 dependency assemblies.
+  Wrote information on 8 namespaces, 46 types, and 290 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2015.5.2.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.56
+    Last step completed in 00:00:00.6710
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Build started 5/13/2015 3:18:49 PM.
+Project &quot;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2015.5.2.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2015.5.2.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2015.5.2.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.44
+    Last step completed in 00:00:00.5270
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.8600
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Content\Welcome.aml&#39;
+    C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Content\Welcome.aml -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\ddueXml\9c28aebf-f901-4e90-a11d-9ea99149f3f2.xml
+    Parsing topic file &#39;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\ddueXml\d100b67d-e913-4b88-b863-2bdc849a6bd4.xml
+    Parsing topic file &#39;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\ddueXml\cdb43d35-66d8-4e14-97f0-752d2c1fe18f.xml
+    Last step completed in 00:00:00.0620
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    ConceptualManifest.xml
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\icons\favicon.ico -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\favicon.ico
+C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\icons\Help.png -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\Help.png
+C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\icons\logo_small.png -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\logo_small.png
+    Last step completed in 00:00:00.0120
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Build started 5/13/2015 3:18:50 PM.
+Project &quot;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2015.5.2.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.11
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.1830
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    conceptual.config
+    Last step completed in 00:00:00.2450
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\sandcastle.config
+C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\conceptual.config
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.8500
+</buildStep>
+<buildStep step="BuildConceptualTopics">
+Building conceptual help topics...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Build started 5/13/2015 3:18:52 PM.
+Project &quot;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildConceptualTopics.proj&quot; on node 1 (default targets).
+BuildConceptualTopics:
+  BuildAssembler (v2015.5.2.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+  Processed 3 topic(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+Done Building Project &quot;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildConceptualTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.28
+    Last step completed in 00:00:05.2193
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Build started 5/13/2015 3:18:57 PM.
+Project &quot;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
+BuildReferenceTopics:
+  BuildAssembler (v2015.5.2.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:MSOE.MediaComplete.Lib] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:MSOE.MediaComplete.Lib.Constants.PathSeparator] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.Polling.InboxFilesDetected] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Polling.TimeInMinutes] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Polling.InboxFilesHandler] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.SettingWrapper.AllDirectories] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.SettingWrapper.Layout] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.SettingWrapper.RaiseSettingEvent] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.SettingWrapper.SettingsChangedListener] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.StatusBarHandler] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.StatusBarHandler.ChangeStatusBarMessage(System.String,MSOE.MediaComplete.Lib.StatusBarHandler.StatusIcon)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.StatusBarHandler.ChangeStatusBarMessage(System.String,MSOE.MediaComplete.Lib.StatusBarHandler.StatusIcon)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.StatusBarHandler.ChangeStatusBarMessage(System.String,MSOE.MediaComplete.Lib.StatusBarHandler.StatusIcon)] Missing &lt;param name=&quot;icon&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.StatusBarHandler.ChangeStatusBarMessage(System.String,System.String,MSOE.MediaComplete.Lib.StatusBarHandler.StatusIcon,System.Object[])] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.StatusBarHandler.ChangeStatusBarMessage(System.String,System.String,MSOE.MediaComplete.Lib.StatusBarHandler.StatusIcon,System.Object[])] Missing &lt;param name=&quot;format&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.StatusBarHandler.ChangeStatusBarMessage(System.String,System.String,MSOE.MediaComplete.Lib.StatusBarHandler.StatusIcon,System.Object[])] Missing &lt;param name=&quot;messageKey&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.StatusBarHandler.ChangeStatusBarMessage(System.String,System.String,MSOE.MediaComplete.Lib.StatusBarHandler.StatusIcon,System.Object[])] Missing &lt;param name=&quot;icon&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.StatusBarHandler.ChangeStatusBarMessage(System.String,System.String,MSOE.MediaComplete.Lib.StatusBarHandler.StatusIcon,System.Object[])] Missing &lt;param name=&quot;extraArgs&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.StatusBarHandler.Instance] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.StatusBarHandler.Interval] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.StatusBarHandler.RaiseStatusBarEvent] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.StatusBarHandler.StatusBarChanged] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:MSOE.MediaComplete.Lib.Background] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Background.Task.TriggerDone(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;param name=&quot;data&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Background.Task.TriggerUpdate(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;param name=&quot;data&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Background.Task.UpdateHandler] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:MSOE.MediaComplete.Lib.Files] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Files.DirectoryPath] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.DirectoryPath.#ctor(System.String)] Missing &lt;param name=&quot;path&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Files.FileManager] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.AddFile(MSOE.MediaComplete.Lib.Files.SongPath,MSOE.MediaComplete.Lib.Files.SongPath)] Missing &lt;param name=&quot;songPath&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.AddFile(MSOE.MediaComplete.Lib.Files.SongPath,MSOE.MediaComplete.Lib.Files.SongPath)] Missing &lt;param name=&quot;newFile&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.ChangedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.ChangedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.CreatedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.CreatedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.DeletedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.DeletedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.GetSong(M3U.NET.MediaItem)] Unknown reference link target &#39;T:M3U.NET.MediaItem&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Files.FileManager.Instance] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.RenamedFile(System.Object,System.IO.RenamedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.FileManager.RenamedFile(System.Object,System.IO.RenamedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.Files.FileManager.SongChanged] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.Files.FileManager.SongCreated] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.Files.FileManager.SongDeleted] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.Files.FileManager.SongRenamed] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Files.FileManager.SongRenamedHandler] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Files.FileManager.SongUpdatedHandler] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Files.IFileManager] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.AddFile(MSOE.MediaComplete.Lib.Files.SongPath,MSOE.MediaComplete.Lib.Files.SongPath)] Missing &lt;param name=&quot;songPath&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.AddFile(MSOE.MediaComplete.Lib.Files.SongPath,MSOE.MediaComplete.Lib.Files.SongPath)] Missing &lt;param name=&quot;newFile&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.ChangedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.ChangedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.CreatedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.CreatedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.DeletedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.DeletedFile(System.Object,System.IO.FileSystemEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.GetSong(M3U.NET.MediaItem)] Unknown reference link target &#39;T:M3U.NET.MediaItem&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.RenamedFile(System.Object,System.IO.RenamedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.IFileManager.RenamedFile(System.Object,System.IO.RenamedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.Files.IFileManager.SongChanged] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.Files.IFileManager.SongCreated] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.Files.IFileManager.SongDeleted] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.Files.IFileManager.SongRenamed] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.LocalSong.GetHashCode] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.LocalSong.GetHashCode] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Files.LocalSong.Id] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.LocalSong.ToString] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.LocalSong.ToString] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Files.SongPath] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.SongPath.#ctor(System.String)] Missing &lt;param name=&quot;path&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.SongPath.Equals(System.Object)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.SongPath.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Files.SongPath.GetHashCode] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:MSOE.MediaComplete.Lib.Import] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Import.Importer.#ctor(MSOE.MediaComplete.Lib.Files.IFileManager,System.Collections.Generic.IEnumerable{MSOE.MediaComplete.Lib.Files.SongPath},System.Boolean)] Missing &lt;param name=&quot;files&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Import.Importer.#ctor(MSOE.MediaComplete.Lib.Files.IFileManager,System.Collections.Generic.IEnumerable{MSOE.MediaComplete.Lib.Files.SongPath},System.Boolean)] Missing &lt;param name=&quot;isMove&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Import.Importer.InvalidAfterTypes] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Import.Importer.InvalidBeforeTypes] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Import.Importer.InvalidDuringTypes] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Import.Importer.RemoveOther(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Import.Importer.RemoveOther(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Import.Importer.RemoveOther(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;param name=&quot;t&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Import.Importer.Results] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Import.Importer.ImportHandler] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Import.ImportResults.FailCount] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Import.ImportResults.NewFiles] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:MSOE.MediaComplete.Lib.Metadata] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Metadata.IdentificationException] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.IdentificationException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.IdentificationException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;exception&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Metadata.IdentifierTask] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.IdentifierTask.Do(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.IdentifierTask.Do(System.Int32)] Missing &lt;param name=&quot;i&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Metadata.IdentifierTask.InvalidAfterTypes] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Metadata.IdentifierTask.InvalidBeforeTypes] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Metadata.IdentifierTask.InvalidDuringTypes] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.IdentifierTask.RemoveOther(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.IdentifierTask.RemoveOther(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.IdentifierTask.RemoveOther(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;param name=&quot;t&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.GetAttribute(TagLib.File,MSOE.MediaComplete.Lib.Metadata.MetaAttribute)] Unknown reference link target &#39;T:TagLib.File&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.GetAttribute(TagLib.File,MSOE.MediaComplete.Lib.Metadata.MetaAttribute)] Unknown reference link target &#39;T:TagLib.File&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.GetMusicFiles(System.Collections.Generic.IEnumerable{System.IO.FileInfo})] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.MusicFileEquals(TagLib.File,TagLib.File)] Unknown reference link target &#39;T:TagLib.File&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.MusicFileEquals(TagLib.File,TagLib.File)] Unknown reference link target &#39;T:TagLib.File&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.MusicFileEquals(TagLib.File,TagLib.File)] Unknown reference link target &#39;T:TagLib.File&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.SetAttribute(TagLib.File,MSOE.MediaComplete.Lib.Metadata.MetaAttribute,System.Object)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.SetAttribute(TagLib.File,MSOE.MediaComplete.Lib.Metadata.MetaAttribute,System.Object)] Missing &lt;param name=&quot;file&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.SetAttribute(TagLib.File,MSOE.MediaComplete.Lib.Metadata.MetaAttribute,System.Object)] Missing &lt;param name=&quot;attr&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.SetAttribute(TagLib.File,MSOE.MediaComplete.Lib.Metadata.MetaAttribute,System.Object)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.SetAttribute(TagLib.File,MSOE.MediaComplete.Lib.Metadata.MetaAttribute,System.Object)] Unknown reference link target &#39;T:TagLib.File&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Metadata.MetadataExtensions.SetAttribute(TagLib.File,MSOE.MediaComplete.Lib.Metadata.MetaAttribute,System.Object)] Unknown reference link target &#39;T:TagLib.File&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Metadata.MusicIdentifier] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.MusicIdentifier.IdentifySongAsync(MSOE.MediaComplete.Lib.Files.IFileManager,System.String)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.MusicIdentifier.IdentifySongAsync(MSOE.MediaComplete.Lib.Files.IFileManager,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.MusicIdentifier.IdentifySongAsync(MSOE.MediaComplete.Lib.Files.IFileManager,System.String)] Missing &lt;param name=&quot;fileMover&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Metadata.MusicIdentifier.IdentifySongAsync(MSOE.MediaComplete.Lib.Files.IFileManager,System.String)] Missing &lt;param name=&quot;filename&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:MSOE.MediaComplete.Lib.Playing] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Playing.INAudioWrapper] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.ChangeVolume(System.Double)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.ChangeVolume(System.Double)] Missing &lt;param name=&quot;sliderVolume&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.CurrentTime] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Pause] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Pause] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Pause] Unknown reference link target &#39;T:NAudio.Wave.PlaybackState&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Play] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Play] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Play] Unknown reference link target &#39;T:NAudio.Wave.PlaybackState&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Seek(System.TimeSpan)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Seek(System.TimeSpan)] Missing &lt;param name=&quot;timeToSeekTo&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Setup(MSOE.MediaComplete.Lib.Files.LocalSong,System.EventHandler{NAudio.Wave.StoppedEventArgs},System.Double)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Setup(MSOE.MediaComplete.Lib.Files.LocalSong,System.EventHandler{NAudio.Wave.StoppedEventArgs},System.Double)] Missing &lt;param name=&quot;localSong&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Setup(MSOE.MediaComplete.Lib.Files.LocalSong,System.EventHandler{NAudio.Wave.StoppedEventArgs},System.Double)] Missing &lt;param name=&quot;handler&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Setup(MSOE.MediaComplete.Lib.Files.LocalSong,System.EventHandler{NAudio.Wave.StoppedEventArgs},System.Double)] Missing &lt;param name=&quot;currentVolume&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Setup(MSOE.MediaComplete.Lib.Files.LocalSong,System.EventHandler{NAudio.Wave.StoppedEventArgs},System.Double)] Unknown reference link target &#39;T:NAudio.Wave.StoppedEventArgs&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Stop] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Stop] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.Stop] Unknown reference link target &#39;T:NAudio.Wave.PlaybackState&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Playing.INAudioWrapper.TotalTime] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.IPlayer.ChangeVolume(System.Double)] Missing &lt;param name=&quot;newValue&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:MSOE.MediaComplete.Lib.Playing.IPlayer.PlaybackState] Unknown reference link target &#39;T:NAudio.Wave.PlaybackState&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.IPlayer.Seek(System.TimeSpan)] Missing &lt;param name=&quot;timeToSeekTo&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.ChangeVolume(System.Double)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.ChangeVolume(System.Double)] Missing &lt;param name=&quot;sliderVolume&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Pause] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Pause] Unknown reference link target &#39;T:NAudio.Wave.PlaybackState&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Play] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Play] Unknown reference link target &#39;T:NAudio.Wave.PlaybackState&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Seek(System.TimeSpan)] Missing &lt;param name=&quot;timeToSeekTo&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Setup(MSOE.MediaComplete.Lib.Files.LocalSong,System.EventHandler{NAudio.Wave.StoppedEventArgs},System.Double)] Missing &lt;param name=&quot;localSong&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Setup(MSOE.MediaComplete.Lib.Files.LocalSong,System.EventHandler{NAudio.Wave.StoppedEventArgs},System.Double)] Missing &lt;param name=&quot;handler&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Setup(MSOE.MediaComplete.Lib.Files.LocalSong,System.EventHandler{NAudio.Wave.StoppedEventArgs},System.Double)] Missing &lt;param name=&quot;currentVolume&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Setup(MSOE.MediaComplete.Lib.Files.LocalSong,System.EventHandler{NAudio.Wave.StoppedEventArgs},System.Double)] Unknown reference link target &#39;T:NAudio.Wave.StoppedEventArgs&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Stop] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playing.NAudioWrapper.Stop] Unknown reference link target &#39;T:NAudio.Wave.PlaybackState&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NowPlaying.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{MSOE.MediaComplete.Lib.Files.AbstractSong})] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NowPlaying.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{MSOE.MediaComplete.Lib.Files.AbstractSong})] Missing &lt;param name=&quot;insertIndex&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.NowPlaying.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{MSOE.MediaComplete.Lib.Files.AbstractSong})] Missing &lt;param name=&quot;songs&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.Player.ChangeVolume(System.Double)] Missing &lt;param name=&quot;newValue&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.Player.OnSongFinishedEvent(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.Player.OnSongFinishedEvent(System.Int32,System.Int32)] Missing &lt;param name=&quot;oldIndex&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.Player.OnSongFinishedEvent(System.Int32,System.Int32)] Missing &lt;param name=&quot;newIndex&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:MSOE.MediaComplete.Lib.Playing.Player.PlaybackState] Unknown reference link target &#39;T:NAudio.Wave.PlaybackState&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playing.Player.Seek(System.TimeSpan)] Missing &lt;param name=&quot;timeToSeekTo&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:MSOE.MediaComplete.Lib.Playing.Player.SongFinishedEvent] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Playing.Player.SongFinished] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:MSOE.MediaComplete.Lib.Playlists] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Playlists.IPlaylistService] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.IPlaylistService.Create(M3U.NET.MediaItem)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.IPlaylistService.Create(M3U.NET.MediaItem)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.IPlaylistService.Create(M3U.NET.MediaItem)] Missing &lt;param name=&quot;mediaItem&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playlists.IPlaylistService.Create(M3U.NET.MediaItem)] Unknown reference link target &#39;T:M3U.NET.MediaItem&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.IPlaylistService.ToMediaItem(MSOE.MediaComplete.Lib.Files.LocalSong)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.IPlaylistService.ToMediaItem(MSOE.MediaComplete.Lib.Files.LocalSong)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.IPlaylistService.ToMediaItem(MSOE.MediaComplete.Lib.Files.LocalSong)] Missing &lt;param name=&quot;song&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playlists.IPlaylistService.ToMediaItem(MSOE.MediaComplete.Lib.Files.LocalSong)] Unknown reference link target &#39;T:M3U.NET.MediaItem&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playlists.Playlist.#ctor(M3U.NET.IM3UFile)] Unknown reference link target &#39;T:M3U.NET.IM3UFile&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Playlists.Playlist.Songs] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Playlists.Playlist.Title] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistService.Create(M3U.NET.MediaItem)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistService.Create(M3U.NET.MediaItem)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistService.Create(M3U.NET.MediaItem)] Missing &lt;param name=&quot;mediaItem&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistService.Create(M3U.NET.MediaItem)] Unknown reference link target &#39;T:M3U.NET.MediaItem&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistService.ToMediaItem(MSOE.MediaComplete.Lib.Files.LocalSong)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistService.ToMediaItem(MSOE.MediaComplete.Lib.Files.LocalSong)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistService.ToMediaItem(MSOE.MediaComplete.Lib.Files.LocalSong)] Missing &lt;param name=&quot;song&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistService.ToMediaItem(MSOE.MediaComplete.Lib.Files.LocalSong)] Unknown reference link target &#39;T:M3U.NET.MediaItem&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Playlists.PlaylistServiceImpl] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistServiceImpl.Create(M3U.NET.MediaItem)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistServiceImpl.Create(M3U.NET.MediaItem)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistServiceImpl.Create(M3U.NET.MediaItem)] Missing &lt;param name=&quot;mediaItem&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistServiceImpl.Create(M3U.NET.MediaItem)] Unknown reference link target &#39;T:M3U.NET.MediaItem&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistServiceImpl.ToMediaItem(MSOE.MediaComplete.Lib.Files.LocalSong)] Missing &lt;param name=&quot;song&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:MSOE.MediaComplete.Lib.Playlists.PlaylistServiceImpl.ToMediaItem(MSOE.MediaComplete.Lib.Files.LocalSong)] Unknown reference link target &#39;T:M3U.NET.MediaItem&#39;. [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:MSOE.MediaComplete.Lib.Sorting] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Sorting.Sorter.Actions] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Sorting.Sorter.CalculateActionsAsync] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Sorting.Sorter.DupCount] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Sorting.Sorter.GetValidFileName(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Sorting.Sorter.GetValidFileName(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Sorting.Sorter.GetValidFileName(System.String)] Missing &lt;param name=&quot;path&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Sorting.Sorter.InvalidAfterTypes] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Sorting.Sorter.InvalidBeforeTypes] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Sorting.Sorter.InvalidDuringTypes] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Sorting.Sorter.MoveCount] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Sorting.Sorter.RemoveOther(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Sorting.Sorter.RemoveOther(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;returns&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Sorting.Sorter.RemoveOther(MSOE.MediaComplete.Lib.Background.Task)] Missing &lt;param name=&quot;t&quot;/&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Sorting.Sorter.UnsortableCount] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Sorting.Sorter.DeleteAction] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Sorting.Sorter.DeleteAction.Do] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Sorting.Sorter.DeleteAction.Target] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Sorting.Sorter.IAction] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Sorting.Sorter.IAction.Do] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:MSOE.MediaComplete.Lib.Sorting.Sorter.MoveAction] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Sorting.Sorter.MoveAction.Dest] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:MSOE.MediaComplete.Lib.Sorting.Sorter.MoveAction.Do] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:MSOE.MediaComplete.Lib.Sorting.Sorter.MoveAction.Source] Missing &lt;summary&gt; documentation [C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj]
+  Processed 413 topic(s)
+  218 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+Done Building Project &quot;C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.55
+    Last step completed in 00:00:11.6614
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+
+Clearing any prior web/markdown output
+    Last step completed in 00:00:00.4240
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Sandcastle Help File Builder, version 2015.5.2.0
+Copyright c 2006-2015, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website
+Processed 416 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\WebKI.xml
+Saving website table of contents to C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\WebTOC.xml
+    Last step completed in 00:00:00.3961
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help2.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-Help2.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Foxgang\LocalDocuments\MSOE.MediaComplete\Documentation\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00.5050
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:01.3661
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 642 files for the website content
+    Last step completed in 00:00:00.6910
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.6903
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 5/13/2015 3:19:13 PM.  Total time: 00:00:25.8494
+
+</buildStep>
+</shfbBuild>

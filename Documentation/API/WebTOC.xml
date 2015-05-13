@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the MediaComplete.Lib documentation" Url="html/9c28aebf-f901-4e90-a11d-9ea99149f3f2.htm" />
+  <HelpTOCNode Id="bc5decbb-cd7e-4dd1-94b2-443c3f086979" Title="Version History" Url="html/d100b67d-e913-4b88-b863-2bdc849a6bd4.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/cdb43d35-66d8-4e14-97f0-752d2c1fe18f.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="032af626-a45c-41e2-b6f6-5523d0d1e0e5" Title="MSOE.MediaComplete.Lib" Url="html/6335c306-f932-c253-4679-47d8770110f6.htm">
+    <HelpTOCNode Id="c4fe8ab2-330a-4314-a6e0-f167ec90f3e0" Title="Constants Class" Url="html/98d68a8b-2292-bf8c-dc4b-9a497bcff02e.htm">
+      <HelpTOCNode Id="8abf62f3-de24-4e1e-836d-2c71008e11e6" Title="Constants Fields" Url="html/8f6e5b0d-c8e4-7184-7880-5de1be9b5c35.htm">
+        <HelpTOCNode Title="FileDialogFilterStringSeparator Field" Url="html/72b78f34-defe-0ef6-0441-3c68cc81acf0.htm" />
+        <HelpTOCNode Title="Mp3FileExtension Field" Url="html/11a64da6-515d-03b2-e629-27a5702bd602.htm" />
+        <HelpTOCNode Title="MusicFileExtensions Field" Url="html/5bf6421c-5f93-144c-30f1-06332882522e.htm" />
+        <HelpTOCNode Title="PathSeparator Field" Url="html/453831dc-b1cd-3e3e-8838-8fcaddc2a228.htm" />
+        <HelpTOCNode Title="PlaylistFileExtensions Field" Url="html/a3c54d96-a17e-f10d-54e3-89266e62ec88.htm" />
+        <HelpTOCNode Title="WavFileExtension Field" Url="html/da673115-7377-0e72-16ec-89e89ae5f823.htm" />
+        <HelpTOCNode Title="Wildcard Field" Url="html/e32dd19c-ee67-0780-f102-d24b4337aa9f.htm" />
+        <HelpTOCNode Title="WmaFileExtension Field" Url="html/e4df6fd1-2200-4518-2bd8-4bd98ddb715c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="LayoutType Enumeration" Url="html/9e9ef5f7-f7a1-18a3-8d2b-e630a7dce769.htm" />
+    <HelpTOCNode Id="0ccd3ba5-b30b-40ca-9994-7db0b569b278" Title="Polling Class" Url="html/b5e3e5bc-625c-4414-cc98-2c75ecd9e92e.htm">
+      <HelpTOCNode Id="f3a048ab-cea1-4e8a-8a03-07adf56aef4a" Title="Polling Methods" Url="html/1909c1b6-6234-39f1-6170-d92080ca726f.htm">
+        <HelpTOCNode Title="OnSettingChanged Method " Url="html/b4a6e02b-57e1-9b40-924d-35cf4d5aaed5.htm" />
+        <HelpTOCNode Title="Reset Method " Url="html/8011dfa6-d5be-e2b7-ee6e-83a98f31fde9.htm" />
+        <HelpTOCNode Title="Start Method " Url="html/806549c9-ace6-dd4d-dbc0-4f345f8337d1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7b31a366-6498-43ac-9578-443a1c17c09b" Title="Polling Properties" Url="html/394a4c8e-ca95-571f-518b-517d715154c7.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/7654325d-62ff-fc95-fdb8-511266453744.htm" />
+        <HelpTOCNode Title="TimeInMinutes Property " Url="html/a84ff211-ddf2-bf18-e124-80363360a2a0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e0315a2d-0685-4905-be0c-f31282de7feb" Title="Polling Events" Url="html/8d1a2364-5a80-25bd-4509-01fb643aa092.htm">
+        <HelpTOCNode Title="InboxFilesDetected Event" Url="html/ead1582f-a26a-7bd6-61e8-0f20aeaf5cb5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Polling.InboxFilesHandler Delegate" Url="html/cf649236-26a9-29ec-f1c1-90a2c9ded7e2.htm" />
+    <HelpTOCNode Id="95cecbba-8f82-4785-87c7-eb40f292203a" Title="SettingWrapper Class" Url="html/2aca8fd3-18bc-052a-7c25-7ef1c32480c8.htm">
+      <HelpTOCNode Id="f5da28d3-60a4-4d54-b942-3770c8a02c25" Title="SettingWrapper Methods" Url="html/1d568c79-8648-28f4-1696-98c6d5bcad21.htm">
+        <HelpTOCNode Title="Save Method " Url="html/bc236229-b636-b0b3-87f0-6a6ac1e9b25b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="db771959-cad0-41c6-8d60-306531dc088d" Title="SettingWrapper Properties" Url="html/85d1657a-5bbe-15c5-956c-3c446a40f48e.htm">
+        <HelpTOCNode Title="AllDirectories Property " Url="html/153de669-3f77-a706-50ca-87132991bacd.htm" />
+        <HelpTOCNode Title="HomeDir Property " Url="html/e8443441-8cff-33e5-25cf-ebfa6ec2dc44.htm" />
+        <HelpTOCNode Title="InboxDir Property " Url="html/77795080-3876-4957-2910-cc9cb14c5f71.htm" />
+        <HelpTOCNode Title="IsPolling Property " Url="html/c3e80456-9105-84f4-f0e6-cde4be70bd21.htm" />
+        <HelpTOCNode Title="IsSorting Property " Url="html/d065c02c-abd4-9001-69f1-f03a58d1ed1d.htm" />
+        <HelpTOCNode Title="Layout Property " Url="html/e5779234-1dbe-9875-acda-05d41def6873.htm" />
+        <HelpTOCNode Title="MusicDir Property " Url="html/0a1b45da-c701-9cef-7330-fd28e297b3f4.htm" />
+        <HelpTOCNode Title="PlaylistDir Property " Url="html/3a212015-3382-d05e-84a7-1a064ca255e5.htm" />
+        <HelpTOCNode Title="PollingTime Property " Url="html/d5e4525d-124d-85e1-64e6-090f7ee938d6.htm" />
+        <HelpTOCNode Title="ShouldRemoveOnImport Property " Url="html/18c35ccd-c3e2-c9b3-1208-e17a096a6b2a.htm" />
+        <HelpTOCNode Title="ShowInputDialog Property " Url="html/15b3253e-dde9-32e5-11d2-3bc2a54c6c63.htm" />
+        <HelpTOCNode Title="SortOrder Property " Url="html/8b5bb565-e0ec-0136-5fae-106bc83109db.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6be4844f-41dc-45bf-a4a0-2a85d1144fe2" Title="SettingWrapper Events" Url="html/4cfd4f94-45f3-f171-d0d4-78189849bf1b.htm">
+        <HelpTOCNode Title="RaiseSettingEvent Event" Url="html/b90f128d-d3aa-590c-52a5-bc0311b401c3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="SettingWrapper.SettingsChangedListener Delegate" Url="html/d72a3e7b-b6b9-0a9b-5ab8-61fcbeef3958.htm" />
+    <HelpTOCNode Id="4ddcd7cc-9a53-4e8f-ab5b-253f4f7c9b26" Title="StatusBarHandler Class" Url="html/be9d987a-a29a-cd90-ed0f-6e4317f86662.htm">
+      <HelpTOCNode Title="StatusBarHandler Constructor " Url="html/a063e948-83f2-7fb4-58c6-a2bd72551cda.htm" />
+      <HelpTOCNode Id="316aa17c-921a-4237-9eaa-86565790bae4" Title="StatusBarHandler Methods" Url="html/532bef42-8b57-f2c1-a15f-3da3b0200ba9.htm">
+        <HelpTOCNode Id="fe2cc38a-eab1-453b-b5fe-ba531e4e124f" Title="ChangeStatusBarMessage Method " Url="html/f299b03d-a03d-fb5f-d26b-17a9f217ee1c.htm">
+          <HelpTOCNode Title="ChangeStatusBarMessage Method (String, StatusBarHandler.StatusIcon)" Url="html/a71236eb-e7dd-64a9-458e-423f707e9256.htm" />
+          <HelpTOCNode Title="ChangeStatusBarMessage Method (String, String, StatusBarHandler.StatusIcon, Object[])" Url="html/5631bedb-cf91-2939-b305-2e7a15eb8ec0.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="bb3ad9a4-c574-476d-becf-5cfd75de0828" Title="StatusBarHandler Properties" Url="html/69639acf-2e13-d7e8-99f7-3465399398eb.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/2eb92825-f94f-ef99-2ee7-20b8f749329e.htm" />
+        <HelpTOCNode Title="Interval Property " Url="html/2dbfb6c8-d954-92b6-525a-9dd237567851.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="708664cb-9709-4278-9c0c-ade76cc3ca8d" Title="StatusBarHandler Events" Url="html/dfd7618a-168b-b7de-cb1e-0ea567276e2f.htm">
+        <HelpTOCNode Title="RaiseStatusBarEvent Event" Url="html/cbf9f774-f1b4-c1a8-f582-14d29498eaf1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="StatusBarHandler.StatusBarChanged Delegate" Url="html/feb3a397-d6dd-ae51-c66f-c1da437a8305.htm" />
+    <HelpTOCNode Title="StatusBarHandler.StatusIcon Enumeration" Url="html/1dcfe387-ebb0-53d5-dd53-d43652bb485d.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="00ad7ab5-d4a4-494a-bff4-0a355a3975e4" Title="MSOE.MediaComplete.Lib.Background" Url="html/41d9f190-544e-59fe-b2ed-b7635626ec06.htm">
+    <HelpTOCNode Id="2b824816-f1b0-4f49-b0d7-d5b19c907e81" Title="InvalidQueueStateException Class" Url="html/d3b8d515-0fd1-84e9-7f7b-5d60e853107b.htm">
+      <HelpTOCNode Title="InvalidQueueStateException Constructor " Url="html/1a90edc3-cdfa-142d-7448-a3489f75c4b5.htm" />
+      <HelpTOCNode Title="InvalidQueueStateException Methods" Url="html/93088dae-cd43-7f08-9c9c-577f206f0422.htm" />
+      <HelpTOCNode Id="7bdacf60-c471-4453-a5db-1cddded2f0d4" Title="InvalidQueueStateException Properties" Url="html/e3246df8-d525-cc4b-11c5-652d8bcd44ff.htm">
+        <HelpTOCNode Title="Task Property " Url="html/eb668bcf-a9ec-0ece-5ada-1ea24542819a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="InvalidQueueStateException Events" Url="html/8eb7e557-da25-a6a4-bc17-671d1330fdb0.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6cd65662-ebb7-4736-89be-4d2e7cb287b7" Title="Queue Class" Url="html/c9dbd8a2-ed47-0dc7-aaba-53b37aaff67c.htm">
+      <HelpTOCNode Id="dd9727af-c8cf-4e22-b125-449bd5adaa33" Title="Queue Methods" Url="html/8c876f3a-569c-81a3-130d-02cba2ed39d7.htm">
+        <HelpTOCNode Title="Add Method " Url="html/d5d619a7-7c5d-3d6e-14cd-2fcbdce5c7a9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0d6b8cc0-304a-4899-84a1-4efdc5433b1f" Title="Queue Properties" Url="html/39610526-e7f1-6796-7323-ee06aa533f9d.htm">
+        <HelpTOCNode Title="Inst Property " Url="html/9566738e-1271-3432-a508-7d2155c27b12.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6e1f9931-f8c6-479b-ab86-841b2ff050f6" Title="Task Class" Url="html/41804b50-9b9d-9ed0-cc24-cad82630f747.htm">
+      <HelpTOCNode Title="Task Constructor " Url="html/f5443376-2c8e-e6c8-597f-607859c1366d.htm" />
+      <HelpTOCNode Id="c9a26722-ddc7-4a6f-bd78-b0f5bbe765ee" Title="Task Methods" Url="html/9e7d552a-add2-de4d-5ddc-5659bdd4501c.htm">
+        <HelpTOCNode Title="Do Method " Url="html/0c1427f9-48c1-e247-af9f-d9080364c383.htm" />
+        <HelpTOCNode Title="RemoveOther Method " Url="html/93855c06-3d47-faf9-d2cc-6e6b7b7dc276.htm" />
+        <HelpTOCNode Title="TriggerDone Method " Url="html/e1e6237f-1b6b-0914-25bd-2bc3b58327a6.htm" />
+        <HelpTOCNode Title="TriggerUpdate Method " Url="html/38090b82-914a-b45d-5dc3-c8e9906d2da1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cc64d494-63b8-43c7-b7db-e87f50c619f5" Title="Task Properties" Url="html/aeab09a1-8c35-cf83-e042-43689a1c3617.htm">
+        <HelpTOCNode Title="Error Property " Url="html/f445b68d-598a-03cd-7a33-a1967befe208.htm" />
+        <HelpTOCNode Title="Icon Property " Url="html/9344fcce-3e02-bfe2-5ea1-c572f967ac0b.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/ef9ac4e9-d2ff-94b8-061d-3d2848307624.htm" />
+        <HelpTOCNode Title="InvalidAfterTypes Property " Url="html/c0f7157f-8ff7-b639-25b8-d69949fa1f99.htm" />
+        <HelpTOCNode Title="InvalidBeforeTypes Property " Url="html/26517134-ee8e-0e8b-bfd4-3d7a7649aeea.htm" />
+        <HelpTOCNode Title="InvalidDuringTypes Property " Url="html/4878bca1-7f04-1cef-fd96-c50c1771835d.htm" />
+        <HelpTOCNode Title="Lock Property " Url="html/4df9dc15-d7e3-4067-d26a-34fc05449420.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/d9973cde-1089-581d-828f-5cf24ce621f9.htm" />
+        <HelpTOCNode Title="PercentComplete Property " Url="html/60bc8e26-72dc-6124-6c19-918efaabf080.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d63cfbae-964a-4d8e-bc8f-88eee53f4bec" Title="Task Events" Url="html/a7d32946-baa3-cd8b-e6e5-4b6c351d0757.htm">
+        <HelpTOCNode Title="Done Event" Url="html/d2a668df-2c1e-b95a-d077-a2ef0fd90fba.htm" />
+        <HelpTOCNode Title="Update Event" Url="html/c1aa7d0f-1f76-ffb8-35ff-b6c0b32ed81a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Task.UpdateHandler Delegate" Url="html/92873541-b89b-6938-44f8-15114f2726c5.htm" />
+    <HelpTOCNode Id="dc140576-5db3-43e5-bc17-6efb6a259393" Title="TaskAdder Class" Url="html/18b6b9a5-683a-2b83-26b0-f37ef8d40b0f.htm">
+      <HelpTOCNode Id="638be7ca-525a-4282-a679-b20d45c6aa4a" Title="TaskAdder Methods" Url="html/60b4f2c3-71f2-42cc-06d1-6c17de205f81.htm">
+        <HelpTOCNode Title="ResolveConflicts Method " Url="html/9c68741e-51ee-ef2d-fb3b-ee95a0f77de6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="6acab29a-0f8f-4733-96b9-c03ae140f841" Title="MSOE.MediaComplete.Lib.Files" Url="html/157b5fa7-6b01-2c53-f78e-51c5b10d6dd5.htm">
+    <HelpTOCNode Id="c1801c46-5255-4a52-8a8b-20215aebff81" Title="AbstractSong Class" Url="html/0bd3f214-25c6-1d72-440d-c4656bcac4e2.htm">
+      <HelpTOCNode Title="AbstractSong Constructor " Url="html/819f5fd6-7612-9384-c6c4-2412c4cc8437.htm" />
+      <HelpTOCNode Id="2e4420d8-9cb2-4c58-8187-c4a9b0d84a62" Title="AbstractSong Methods" Url="html/a73e6209-9c2d-e724-fccd-9115eca378b6.htm">
+        <HelpTOCNode Title="Equals Method " Url="html/b6b7bce9-3661-deb4-33df-53c00c7cffe8.htm" />
+        <HelpTOCNode Title="GetAttribute Method " Url="html/46c78ca2-2bf3-a0e0-e92c-2e60ab2be4e7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="18786855-ec1d-45f2-ad6c-d332bd0c4e15" Title="AbstractSong Properties" Url="html/eafae7c5-9736-afb7-7be4-d91b06b29d3c.htm">
+        <HelpTOCNode Title="Album Property " Url="html/59e4c93a-3083-05c3-52ce-6c6164704062.htm" />
+        <HelpTOCNode Title="Artist Property " Url="html/129a490e-2f77-881a-90a9-4ac68c356700.htm" />
+        <HelpTOCNode Title="Duration Property " Url="html/71d49fd9-c082-cfb2-a6fa-0fc331de5b1d.htm" />
+        <HelpTOCNode Title="Genre Property " Url="html/b4e84eb2-0ee5-dcbf-d4e8-1f7013133063.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/bd97806c-7f8a-2280-cc5d-1f9a86af6fef.htm" />
+        <HelpTOCNode Title="SupportingArtists Property " Url="html/36f76a32-c0cd-ed5e-76fd-0d4493cc8e0f.htm" />
+        <HelpTOCNode Title="Title Property " Url="html/62302809-e38f-87fc-7ea9-530ea7016176.htm" />
+        <HelpTOCNode Title="TrackNumber Property " Url="html/3835a35b-9b36-afd8-348b-138172a2667e.htm" />
+        <HelpTOCNode Title="Year Property " Url="html/c8be3491-66a8-7c20-b8aa-0af7581da1b8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ad01fd6e-6d6b-48b5-8a11-c18b425bf8a1" Title="DirectoryPath Class" Url="html/c0c91bf2-680e-2d88-2d0c-6a49ab149e5b.htm">
+      <HelpTOCNode Title="DirectoryPath Constructor " Url="html/fcbc3ce0-ad8e-4803-3c73-f0f9739b0b4d.htm" />
+      <HelpTOCNode Id="bb6630bc-92c7-4160-b1a2-6050e6647201" Title="DirectoryPath Methods" Url="html/14f4009b-f750-1873-395f-9f716845c217.htm">
+        <HelpTOCNode Title="HasParent Method " Url="html/2cc12564-6b27-9447-2035-fe9459fa09d0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d62b78fb-9b6f-4df3-966c-2a2e8df09a29" Title="DirectoryPath Properties" Url="html/77f10208-6ce6-4613-8109-f6f58b02794d.htm">
+        <HelpTOCNode Title="FullPath Property " Url="html/6c5b358b-bc00-a08e-f613-0cad6ac71ef2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d5909333-f04e-40d2-93e4-d054493208f9" Title="FileManager Class" Url="html/3ea026cf-2a4a-c37f-7f0b-d6b150f6e981.htm">
+      <HelpTOCNode Id="644752f8-1be0-43d3-8bfb-ba6f5563313a" Title="FileManager Methods" Url="html/d7c015ac-5cdb-562e-5ddb-a32829dfde7e.htm">
+        <HelpTOCNode Title="AddFile Method " Url="html/63042c1f-b7cb-74f7-0585-32db3823e865.htm" />
+        <HelpTOCNode Title="ChangedFile Method " Url="html/1e91187a-31d9-8d9b-c873-257bdc4c0e0a.htm" />
+        <HelpTOCNode Title="CopyFile Method " Url="html/0be58e83-6f0b-c86e-65dd-c218f01d2751.htm" />
+        <HelpTOCNode Title="CreatedFile Method " Url="html/ef855ab1-0708-c1d2-16a6-6a25d7adf06e.htm" />
+        <HelpTOCNode Title="CreateDirectory Method " Url="html/e7f613be-e2ff-f134-1754-7604101b29a2.htm" />
+        <HelpTOCNode Title="DeletedFile Method " Url="html/568e4b69-b951-745b-da02-ea2171f2548c.htm" />
+        <HelpTOCNode Title="DeleteSong Method " Url="html/0096b617-5b2b-aa15-702f-6c66a264f2a7.htm" />
+        <HelpTOCNode Title="DirectoryExists Method " Url="html/953d0fbb-12be-ce5c-3189-26b6ce617ebf.htm" />
+        <HelpTOCNode Title="FileExists Method " Url="html/c806404f-8183-c7dd-8f50-40a009fd3d13.htm" />
+        <HelpTOCNode Title="GetAllSongs Method " Url="html/1adb7364-a8b2-2ec5-2f6c-93da658b09c6.htm" />
+        <HelpTOCNode Id="e348e43e-b2fb-4519-943b-8e0ecea1338a" Title="GetSong Method " Url="html/6f77f8f3-3c48-2284-e542-60fffe22560d.htm">
+          <HelpTOCNode Title="GetSong Method (MediaItem)" Url="html/52716cd7-d59d-ccfa-2341-fba3ee343a17.htm" />
+          <HelpTOCNode Title="GetSong Method (SongPath)" Url="html/16ffdf4c-777d-b7d4-db9c-973ec74f109c.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Initialize Method " Url="html/2b6eea7a-6a9a-89ae-7e85-27eb30d814b4.htm" />
+        <HelpTOCNode Title="MoveDirectory Method " Url="html/7617d5a8-30fb-b358-9154-d7b0f745ec8e.htm" />
+        <HelpTOCNode Title="MoveFile Method " Url="html/c79d0471-5fc8-4919-012f-02be5815cd5f.htm" />
+        <HelpTOCNode Title="RenamedFile Method " Url="html/459a394e-4973-a28c-3fdd-42a65565d109.htm" />
+        <HelpTOCNode Title="SaveSong Method " Url="html/4475a579-c968-1a39-6b79-0a3865b1ac87.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ffccc55a-612b-4390-800e-f80b4716ea2e" Title="FileManager Properties" Url="html/ad5cc740-483d-362a-b9a8-21476c562763.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/a506e702-ea62-8735-1b3b-64bfefb86dcd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="89549cd2-0e84-4aff-9586-76e63d8af754" Title="FileManager Events" Url="html/6a3e8add-262b-ea87-3952-6a40c7d0f14d.htm">
+        <HelpTOCNode Title="SongChanged Event" Url="html/cf7721cf-f1c2-28ef-c14e-0eaf45bc2c1f.htm" />
+        <HelpTOCNode Title="SongCreated Event" Url="html/4999b54f-1758-e28e-4eae-b9027c882d05.htm" />
+        <HelpTOCNode Title="SongDeleted Event" Url="html/c3bbf1b4-a8eb-a5f7-f6ac-8c8df2b86874.htm" />
+        <HelpTOCNode Title="SongRenamed Event" Url="html/a7bed944-65ad-2ce3-a046-d06a8fda3384.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="FileManager.SongRenamedHandler Delegate" Url="html/2b0eaa7d-786c-af50-fc65-c6507aeae5dc.htm" />
+    <HelpTOCNode Title="FileManager.SongUpdatedHandler Delegate" Url="html/3e400f7a-729f-e5c2-77d6-41f5f612ce9f.htm" />
+    <HelpTOCNode Id="aed34581-a743-4a32-825d-a4f1035a1c09" Title="IFileManager Interface" Url="html/b098c86c-44e5-80ff-b27a-d9a83267ef81.htm">
+      <HelpTOCNode Id="163ea1db-5774-4cb7-ac97-b72da54b76ca" Title="IFileManager Methods" Url="html/1f320c75-0de4-455e-8304-a8b84668f743.htm">
+        <HelpTOCNode Title="AddFile Method " Url="html/74cfecfd-9ee1-1542-82a2-9e9db968ce57.htm" />
+        <HelpTOCNode Title="ChangedFile Method " Url="html/26441b40-9bc5-d0c4-98a6-d10cfacce2d8.htm" />
+        <HelpTOCNode Title="CopyFile Method " Url="html/d2edbea0-42bb-c553-0b06-e16ada749e30.htm" />
+        <HelpTOCNode Title="CreatedFile Method " Url="html/69a43efc-cfa0-8f90-8d1c-f31380f3ea80.htm" />
+        <HelpTOCNode Title="CreateDirectory Method " Url="html/34c372a2-4a5f-1b7b-df08-2b590a708908.htm" />
+        <HelpTOCNode Title="DeletedFile Method " Url="html/a6fac12b-ffb9-3020-8d41-43babc01af4b.htm" />
+        <HelpTOCNode Title="DeleteSong Method " Url="html/b8415d25-16a6-1320-28a3-4782598200b4.htm" />
+        <HelpTOCNode Title="DirectoryExists Method " Url="html/73443be4-160f-0819-5f00-b8ccda207580.htm" />
+        <HelpTOCNode Title="FileExists Method " Url="html/bfae0414-4431-90b9-db3b-8e9021468833.htm" />
+        <HelpTOCNode Title="GetAllSongs Method " Url="html/55fe6304-49aa-77da-9b2e-7fda0b2ee0b3.htm" />
+        <HelpTOCNode Id="4ca39646-a5b3-43af-94c5-3c1de16d5b60" Title="GetSong Method " Url="html/7854f0db-58e6-172f-e48e-b75649869826.htm">
+          <HelpTOCNode Title="GetSong Method (MediaItem)" Url="html/bc3c60d0-acf0-138a-8509-5c5b2a9273e8.htm" />
+          <HelpTOCNode Title="GetSong Method (SongPath)" Url="html/d71dbb1e-27ab-3ba3-b5ed-d6a430b79ca9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Initialize Method " Url="html/eb6af087-1cf6-be86-adc9-2cee4adf301e.htm" />
+        <HelpTOCNode Title="MoveDirectory Method " Url="html/6f240331-ee95-d284-ccfd-b4b7f3b0b081.htm" />
+        <HelpTOCNode Title="MoveFile Method " Url="html/30b24c4e-e6bb-948b-fd5e-4ade3abadf07.htm" />
+        <HelpTOCNode Title="RenamedFile Method " Url="html/a2394976-7498-cdc5-395e-46a76716c7ca.htm" />
+        <HelpTOCNode Title="SaveSong Method " Url="html/638069c2-0eed-dead-a8ce-14d2f9394524.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0e7081c6-31e4-4fda-88d9-cf01d5cc6cd1" Title="IFileManager Events" Url="html/73b7a1ad-2129-c6a7-08fc-d42c31698cbe.htm">
+        <HelpTOCNode Title="SongChanged Event" Url="html/df4b099d-90ae-9033-3795-832f300b92cf.htm" />
+        <HelpTOCNode Title="SongCreated Event" Url="html/66e56c0e-9ebc-1e83-0e9c-2f2bb2113bc7.htm" />
+        <HelpTOCNode Title="SongDeleted Event" Url="html/195e82b4-dea9-b875-2448-722a8f868dec.htm" />
+        <HelpTOCNode Title="SongRenamed Event" Url="html/12e67438-16fa-7772-8a16-2c557ec9df37.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e7258b41-3114-487f-994e-53f59c7f20ca" Title="LocalSong Class" Url="html/509ffe15-ab34-5b89-ab5c-a562bb0a2763.htm">
+      <HelpTOCNode Title="LocalSong Constructor " Url="html/3ed11abd-8af7-b524-0fad-dad699dcc1c9.htm" />
+      <HelpTOCNode Id="9d2eab52-585a-4dae-878a-bf541216117b" Title="LocalSong Methods" Url="html/4a373716-98d8-a544-e504-c536e84baee5.htm">
+        <HelpTOCNode Title="Equals Method " Url="html/c0368742-6a44-ef63-c168-d48035819265.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/0142481b-fa8e-0fcc-d655-d9ac071ac6f9.htm" />
+        <HelpTOCNode Title="GetPath Method " Url="html/9de4cb32-c9fb-786d-a616-71f32e911374.htm" />
+        <HelpTOCNode Title="HasParent Method " Url="html/c854a6c5-9951-abdd-e7fa-b579bbc6289a.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/19d2bb8e-232d-0ea9-50e3-162dda8458aa.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="445fd3bc-d930-4b3f-a852-39e01f91a52d" Title="LocalSong Properties" Url="html/a7255df6-b668-03fb-75c1-c8eb850fbd9c.htm">
+        <HelpTOCNode Title="FileType Property " Url="html/fce00032-e65b-c45d-c579-6369b9d1db3f.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/5facdbb0-62b8-52d7-1b81-d2bf667d660f.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/399f905a-e828-7a5a-5a95-4557bb8212a9.htm" />
+        <HelpTOCNode Title="Path Property " Url="html/6aae85ab-8c1f-6d7e-768c-da1640f5712f.htm" />
+        <HelpTOCNode Title="SongPath Property " Url="html/5636ace0-046c-7c90-a377-14073af9ab84.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="98c7cb29-580e-4b55-be95-793ea2eca45d" Title="SongPath Class" Url="html/310d139e-4d73-aa64-416d-d39522458f99.htm">
+      <HelpTOCNode Title="SongPath Constructor " Url="html/17271a9f-05f1-14f1-d292-c009da0ebbbc.htm" />
+      <HelpTOCNode Id="9d0194f2-e272-4733-aa31-f2bf27fa43c9" Title="SongPath Methods" Url="html/b33f504e-0b16-bcd0-38a7-42f16410f766.htm">
+        <HelpTOCNode Title="Equals Method " Url="html/3a443c92-045b-566b-ca82-bd5aba35014f.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/db649b65-e0eb-8472-12fe-77638c158f75.htm" />
+        <HelpTOCNode Title="HasParent Method " Url="html/b4469884-dbad-fbe0-de10-ed40db0e235f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f4271461-ef7e-4052-a205-5435baef22fa" Title="SongPath Properties" Url="html/903d92fc-43a7-54e6-6f6a-eb0aa7d85f1a.htm">
+        <HelpTOCNode Title="Directory Property " Url="html/a2699778-61aa-14e8-b5eb-52a4749d1a5b.htm" />
+        <HelpTOCNode Title="FullPath Property " Url="html/1b59935f-ea0d-00b7-1951-628a6c63b842.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/c486f6e4-4f35-6b1d-593a-14a75b150b53.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="84c751fb-8fea-471a-bc7d-4482f2d9e0b7" Title="MSOE.MediaComplete.Lib.Import" Url="html/221e499d-62bd-e04c-56e7-605cae12c8f8.htm">
+    <HelpTOCNode Id="a066ddcd-7256-4804-be15-a2b127aedc6a" Title="Importer Class" Url="html/1f887aa8-84b8-beba-3221-d394bb81543c.htm">
+      <HelpTOCNode Title="Importer Constructor " Url="html/3b04ce3b-0746-ea8a-5aec-fab434ca2a46.htm" />
+      <HelpTOCNode Id="844aee29-8eeb-43c7-b368-4cd36e9935d8" Title="Importer Methods" Url="html/8ec00400-a525-2ead-7aa2-b1bff3c4ae77.htm">
+        <HelpTOCNode Title="Do Method " Url="html/e804a8e6-8c2a-3ac1-571e-26a0fcf28f60.htm" />
+        <HelpTOCNode Title="RemoveOther Method " Url="html/057dc317-81ff-aa34-d361-89ec0a4522f0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="89d8d7de-4a9d-4bab-b359-d7743922bccb" Title="Importer Properties" Url="html/7f48a0f1-f49d-3923-774e-eadf12743e44.htm">
+        <HelpTOCNode Title="InvalidAfterTypes Property " Url="html/807437d5-9426-d554-c0d0-5885088b3fb3.htm" />
+        <HelpTOCNode Title="InvalidBeforeTypes Property " Url="html/c4d347ef-28f4-b128-b78e-527fc1e4b76d.htm" />
+        <HelpTOCNode Title="InvalidDuringTypes Property " Url="html/8054e054-8b48-703a-6b3f-2d6b58a622bc.htm" />
+        <HelpTOCNode Title="Results Property " Url="html/3037760e-a9f3-1bbe-936b-60996a0a4b0b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2565a6de-4c5e-468f-8385-3d169156c549" Title="Importer Events" Url="html/d07cee12-9efc-632a-d872-a8d537f7d0de.htm">
+        <HelpTOCNode Title="ImportFinished Event" Url="html/b4b71fe1-d9ad-e0fe-ab94-6cede342bf5f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Importer.ImportHandler Delegate" Url="html/0f151781-8c49-60bc-ea6e-cfbc06e43590.htm" />
+    <HelpTOCNode Id="e519be6f-9978-4ce0-88c6-2e451a71394c" Title="ImportResults Class" Url="html/14457d00-59df-fc8e-b6c0-2e05828c6ce8.htm">
+      <HelpTOCNode Title="ImportResults Constructor " Url="html/90b80d9a-fc55-3a9a-c994-e587997879db.htm" />
+      <HelpTOCNode Title="ImportResults Methods" Url="html/eb587096-e1d0-e73f-9b3f-3c1ad4b6afbd.htm" />
+      <HelpTOCNode Id="8488b1f0-9bdd-44cd-b21e-291b3378486b" Title="ImportResults Properties" Url="html/82f1438a-10bc-0a9e-de52-58d111448baa.htm">
+        <HelpTOCNode Title="FailCount Property " Url="html/3263d972-0ae2-a236-4ddd-8c3c1e26af82.htm" />
+        <HelpTOCNode Title="NewFiles Property " Url="html/d1f60bf5-63af-b931-eebd-55b5f5489393.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="30d75618-3f5f-426c-88d2-61d4e5ccbfba" Title="InvalidImportException Class" Url="html/e1da3a26-3c0a-1d8b-481d-59d91febfd24.htm">
+      <HelpTOCNode Title="InvalidImportException Constructor " Url="html/e88cece5-b0ac-294e-2fe1-dc35dbacb904.htm" />
+      <HelpTOCNode Title="InvalidImportException Methods" Url="html/f8704149-8a97-dfb8-5317-7e3de0652631.htm" />
+      <HelpTOCNode Title="InvalidImportException Properties" Url="html/369c2c58-ec17-3a2e-0960-c6b05eb8271a.htm" />
+      <HelpTOCNode Title="InvalidImportException Events" Url="html/088a04c4-9509-6785-9af7-3a393d19f5f7.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="21b05d1b-2f4f-47a6-84a1-627f15af221f" Title="MSOE.MediaComplete.Lib.Metadata" Url="html/66055915-ca29-fa34-e82f-7f751ea8eddc.htm">
+    <HelpTOCNode Id="398e48d8-be2f-40a7-8560-4bbfcf24e816" Title="IdentificationException Class" Url="html/f4a9c575-1f93-270d-1b70-7573a8676598.htm">
+      <HelpTOCNode Title="IdentificationException Constructor " Url="html/42128775-fdb0-45d7-f7ed-2d49365a4661.htm" />
+      <HelpTOCNode Title="IdentificationException Methods" Url="html/ac1ffa76-3856-d7a0-36e4-cf892ca808ed.htm" />
+      <HelpTOCNode Title="IdentificationException Properties" Url="html/a031d22a-62d4-9fae-69ff-0f20f23aff94.htm" />
+      <HelpTOCNode Title="IdentificationException Events" Url="html/b4636063-89ca-c3fe-d018-f1d6817462de.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3ad67987-ada7-4230-bb87-561534685f68" Title="IdentifierTask Class" Url="html/2579f1c3-a5c1-34d3-2136-bf2f807b3578.htm">
+      <HelpTOCNode Title="IdentifierTask Constructor " Url="html/537300f6-e9d4-9841-a58b-ac2380a2b0bd.htm" />
+      <HelpTOCNode Id="aa2a6e11-6fc7-4339-a44e-1ab35b11492c" Title="IdentifierTask Methods" Url="html/6d40e71f-c345-9f15-25ac-adee04284f33.htm">
+        <HelpTOCNode Title="Do Method " Url="html/dc966887-ec5f-a00d-423f-f5876b3dc1bc.htm" />
+        <HelpTOCNode Title="RemoveOther Method " Url="html/7bb6e07d-2ba4-3df8-4d64-68c05234f8a6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ea898d51-3ae7-4766-991d-d440f6cc1363" Title="IdentifierTask Properties" Url="html/6c9c5cee-bd70-dcfa-3fac-3084d916434d.htm">
+        <HelpTOCNode Title="InvalidAfterTypes Property " Url="html/3426ae48-0837-7137-20a2-d5f591efd9fe.htm" />
+        <HelpTOCNode Title="InvalidBeforeTypes Property " Url="html/87dbc550-38b1-e8e6-a4cd-c236c2e02451.htm" />
+        <HelpTOCNode Title="InvalidDuringTypes Property " Url="html/c4bf9479-3bfe-ffb3-8a9e-0d4c05a59d1b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IdentifierTask Events" Url="html/513c46dd-c6c4-20cb-422b-bc4280ec0da6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="MetaAttribute Enumeration" Url="html/db374dc5-d9f5-b0e8-80fe-9d0702056875.htm" />
+    <HelpTOCNode Id="a7bfdf94-ee10-4ed8-b52b-894fbf85c4ec" Title="MetadataExtensions Class" Url="html/1eb447ed-bf68-030d-3e50-dc35010c8434.htm">
+      <HelpTOCNode Id="7f714479-00b0-49bf-ad09-d1127052a3fb" Title="MetadataExtensions Methods" Url="html/94e16edc-3231-5910-ec8d-99cee16dd523.htm">
+        <HelpTOCNode Title="GetAttribute Method " Url="html/1e9c7a31-978b-7c01-cda4-72f2fa5537e3.htm" />
+        <HelpTOCNode Title="GetMusicFiles Method " Url="html/01d38933-6e42-a983-363c-a1080f8a8992.htm" />
+        <HelpTOCNode Title="MusicFileEquals Method " Url="html/c787cd0d-5774-b1f3-df54-17d9540cb0e7.htm" />
+        <HelpTOCNode Title="SetAttribute Method " Url="html/cb14e5a7-03ba-8575-e5d4-974757a08146.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d252835b-3fd7-4d4d-802e-e8813747f00c" Title="MusicIdentifier Class" Url="html/1f1a83b8-30ce-52a0-4aa8-37dc2686056d.htm">
+      <HelpTOCNode Id="82edb9d7-8fd7-492b-bae0-481c64f30d4d" Title="MusicIdentifier Methods" Url="html/3d910bec-b165-d97a-0548-e114cc138c88.htm">
+        <HelpTOCNode Title="IdentifySongAsync Method " Url="html/52fcda56-9145-0adb-adea-f0eeb6492b08.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="9b40da4b-1b23-4df2-82cd-fe187aa1a5be" Title="MSOE.MediaComplete.Lib.Playing" Url="html/254af499-3a5e-7cd6-d3ae-542635926414.htm">
+    <HelpTOCNode Id="4b89502f-3338-4084-9b27-fe742276ee4a" Title="INAudioWrapper Interface" Url="html/7a6c780a-f453-d8b2-4d68-9c972e702ad7.htm">
+      <HelpTOCNode Id="abcbaeef-fbb3-47b8-9f55-4a887e4fcb44" Title="INAudioWrapper Methods" Url="html/4155a6e9-72d7-c871-b124-e318afd53d03.htm">
+        <HelpTOCNode Title="ChangeVolume Method " Url="html/fba51855-4e6a-3217-2892-7251e038a953.htm" />
+        <HelpTOCNode Title="Pause Method " Url="html/eefa20e8-86f1-6c13-ce9f-e5933a1141d7.htm" />
+        <HelpTOCNode Title="Play Method " Url="html/b1e66576-bbfb-2f0d-aec7-e79d9f907244.htm" />
+        <HelpTOCNode Title="Seek Method " Url="html/a2ed90e3-bb89-b4de-340d-81419ab3ba57.htm" />
+        <HelpTOCNode Title="Setup Method " Url="html/a85811b6-f2b7-6931-21fd-16c6d4752e4b.htm" />
+        <HelpTOCNode Title="Stop Method " Url="html/9df93d92-9df4-29e1-8c55-08f04a38287b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e8550b80-b9e3-4acb-8c77-0161ea87485d" Title="INAudioWrapper Properties" Url="html/76c740b7-6b31-a1fe-fff9-f86d637d0e03.htm">
+        <HelpTOCNode Title="CurrentTime Property " Url="html/972977d5-13c4-04a4-bf1f-84528d03155a.htm" />
+        <HelpTOCNode Title="TotalTime Property " Url="html/1d9fff26-43c6-4dcc-715e-0a5bf91d715b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b4af004c-e9ce-43d8-a772-65669c283065" Title="IPlayer Interface" Url="html/839c0e39-5205-3a6b-0b84-cb8f753cbd76.htm">
+      <HelpTOCNode Id="7ed1aacb-3529-4cc7-9c53-d7aa4b3f2a0c" Title="IPlayer Methods" Url="html/91e6128e-4426-0dca-2e28-e33de4314833.htm">
+        <HelpTOCNode Title="ChangeVolume Method " Url="html/66bdc405-c4c4-95c2-db66-88929f103fbb.htm" />
+        <HelpTOCNode Title="Pause Method " Url="html/34cc023f-f839-000d-c72d-eeb87af12264.htm" />
+        <HelpTOCNode Title="Play Method " Url="html/6fcb39e5-f755-58c7-ced0-938664e63b60.htm" />
+        <HelpTOCNode Title="Resume Method " Url="html/a399a5b3-8a98-8ef1-b139-276b1a394a50.htm" />
+        <HelpTOCNode Title="Seek Method " Url="html/01d4303d-fecf-2329-89fe-621457652319.htm" />
+        <HelpTOCNode Title="Stop Method " Url="html/95a0d557-7a01-d58e-4e64-a6d318ca7ec7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a5459958-95e3-4361-a4c1-437a33c7ba6b" Title="IPlayer Properties" Url="html/5ea48f0e-aba4-b455-6cdc-4f5fdcc2844d.htm">
+        <HelpTOCNode Title="CurrentTime Property " Url="html/a3428f37-2bbd-5d3f-2753-a96158cdf92b.htm" />
+        <HelpTOCNode Title="PlaybackState Property " Url="html/9acb8bbb-a44a-589c-3db5-4c7001850400.htm" />
+        <HelpTOCNode Title="TotalTime Property " Url="html/2f0dd875-ed33-9ed9-6cc0-9fc2d8c9c1f3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="368bfb80-dfe1-45e5-b8bc-974cb4bdbb07" Title="IPlayer Events" Url="html/b22ab693-bb8a-19d3-4d4d-77c2e296b813.htm">
+        <HelpTOCNode Title="PlaybackEnded Event" Url="html/6ed9cc72-4eb2-a14c-2fa3-0bcdd7f6a1aa.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="14454099-4906-4323-8411-f68a472b9823" Title="NAudioWrapper Class" Url="html/5e156cd5-1021-6941-7111-0f69b2cf5eba.htm">
+      <HelpTOCNode Title="NAudioWrapper Constructor " Url="html/32846129-27ea-ded3-b27f-78297087c401.htm" />
+      <HelpTOCNode Id="0946fdfe-c0da-4e14-9114-b3e6dae2e62a" Title="NAudioWrapper Methods" Url="html/79878bf8-a34f-472e-ca09-ba31e37faf4e.htm">
+        <HelpTOCNode Title="ChangeVolume Method " Url="html/c9aef2d8-1e51-3b4a-8b7d-fbe1883abc5c.htm" />
+        <HelpTOCNode Title="Pause Method " Url="html/5b70230b-3987-0e71-59aa-b130f52f1221.htm" />
+        <HelpTOCNode Title="Play Method " Url="html/e4f67f03-f6b0-95e7-c3b2-a5c028aa6430.htm" />
+        <HelpTOCNode Title="Seek Method " Url="html/4ba46e3d-3a17-80f6-ebce-f23b4bef58d2.htm" />
+        <HelpTOCNode Title="Setup Method " Url="html/d3f65568-15bb-56bb-4949-888ca60b51ba.htm" />
+        <HelpTOCNode Title="Stop Method " Url="html/8943d0f2-e331-f7b7-ad91-41cce907d25f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="816764fa-8a92-41dc-ad21-47d913bd3838" Title="NAudioWrapper Properties" Url="html/bc51e743-5aa4-570d-66a4-cd21e6ea9395.htm">
+        <HelpTOCNode Title="CurrentTime Property " Url="html/6b2fde9d-bf5e-31d5-7ed9-033da3ed58e0.htm" />
+        <HelpTOCNode Title="TotalTime Property " Url="html/bccd505a-3b7d-403b-9fe8-6c84a3820b8f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="df4db7c7-50a5-4b04-a9da-fb2a3eed26d1" Title="NowPlaying Class" Url="html/33e0bb4e-fa6d-3169-9d92-c69912ce85cc.htm">
+      <HelpTOCNode Id="732ad38f-404b-4baa-a506-b00a99607f25" Title="NowPlaying Fields" Url="html/234fe40e-0c17-1458-c566-f346cf62ca19.htm">
+        <HelpTOCNode Title="Inst Field" Url="html/6239473b-a127-8ec4-3c5a-92c1f20774f7.htm" />
+        <HelpTOCNode Title="NameString Field" Url="html/d8a219bb-0b24-3ee4-a831-155cfd556ada.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f7a5c7b0-0f1e-43a6-9d54-31f6b0b7e4c1" Title="NowPlaying Methods" Url="html/7db572c1-1d65-d238-f78f-fe4fb63be81e.htm">
+        <HelpTOCNode Id="49e23ae6-8bb9-4a46-b994-323f01d2eb6e" Title="Add Method " Url="html/10150499-cd32-62ce-f753-41e0f25bb576.htm">
+          <HelpTOCNode Title="Add Method (AbstractSong)" Url="html/5dfc4517-b1b3-0f66-97ca-25fe89ff549f.htm" />
+          <HelpTOCNode Title="Add Method (IEnumerable(AbstractSong))" Url="html/16891eda-d9c6-5b3c-84b4-b3bb6ceb4927.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clear Method " Url="html/1cfa6b1d-632e-8b4c-1e56-48c3a7f4c336.htm" />
+        <HelpTOCNode Title="CurrentSong Method " Url="html/14e3ad53-c47c-7ffa-d66d-c74b46a345ec.htm" />
+        <HelpTOCNode Title="HasNextSong Method " Url="html/24011dbc-4e39-23f4-907f-ddc9b1555bb6.htm" />
+        <HelpTOCNode Title="InsertRange Method " Url="html/59c29ff2-668f-82fe-1c0c-d604e2e18d07.htm" />
+        <HelpTOCNode Id="a3791cfb-a4cb-45cc-bef7-2b5eeb363a3f" Title="JumpTo Method " Url="html/5c751b43-cb07-c228-dbff-4922f8c8b8cc.htm">
+          <HelpTOCNode Title="JumpTo Method (Int32)" Url="html/20448df9-d09e-80a2-ddc4-087329e500af.htm" />
+          <HelpTOCNode Title="JumpTo Method (AbstractSong)" Url="html/38f13200-3a72-daee-c9ff-0a71ff10f516.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cf671fcd-0e18-442c-824a-907be682973c" Title="Move Method " Url="html/9893b977-fe89-3543-60c7-e79b63a046eb.htm">
+          <HelpTOCNode Title="Move Method (Int32, Int32)" Url="html/1a80fb8a-0fa5-4956-b097-f976f04bc46a.htm" />
+          <HelpTOCNode Title="Move Method (AbstractSong, Int32)" Url="html/fb63ef65-7db8-e589-7250-bd9e0a3adb41.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="NextSong Method " Url="html/fda4f55d-814f-637a-467c-da959ae46d1a.htm" />
+        <HelpTOCNode Title="PreviousSong Method " Url="html/6a286b91-1192-d827-4a60-c78d5b938736.htm" />
+        <HelpTOCNode Id="59992ec2-aed9-4112-945c-0812c501a712" Title="Remove Method " Url="html/b3c3a65a-c82e-7160-9275-e7eb55c9e996.htm">
+          <HelpTOCNode Title="Remove Method (Int32)" Url="html/a2159dd3-524e-2a9d-0b5a-de166cd78872.htm" />
+          <HelpTOCNode Title="Remove Method (AbstractSong)" Url="html/dcbffb46-8bb1-e666-75d4-29c9a2553d8b.htm" />
+          <HelpTOCNode Title="Remove Method (IEnumerable(AbstractSong))" Url="html/39655dac-033d-536b-e16b-7e9d598ae043.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SongCount Method " Url="html/c2a37c7a-3a53-0da3-5975-f2e9f8d7431e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="776fa773-bfd7-4188-80c5-f25dc817a5a5" Title="NowPlaying Properties" Url="html/dc3bcc76-0c63-dbc1-350d-04c4dd43988c.htm">
+        <HelpTOCNode Title="Index Property " Url="html/d4616928-668f-be8f-04a1-454e5addf38b.htm" />
+        <HelpTOCNode Title="Playlist Property " Url="html/4976a775-daa7-59e5-40a0-5a594dbdecaa.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ae744c91-8c54-4966-949e-bd2d55e565ad" Title="Player Class" Url="html/7c6256ec-6462-b5aa-158f-23ef7406f29a.htm">
+      <HelpTOCNode Id="72b0dced-1849-4c25-a908-b8a8301fcb2d" Title="Player Methods" Url="html/567efb69-bc7a-079d-5f36-b874f2c33979.htm">
+        <HelpTOCNode Title="ChangeVolume Method " Url="html/21e30145-587e-9301-aff2-be476ebb2973.htm" />
+        <HelpTOCNode Title="OnSongFinishedEvent Method " Url="html/d2cece2b-aeb7-d666-2a65-d1ca7e7cc982.htm" />
+        <HelpTOCNode Title="Pause Method " Url="html/5a593716-1af0-302e-9d04-11efc0a9286b.htm" />
+        <HelpTOCNode Title="Play Method " Url="html/f38aab2b-e62f-7373-b295-8d16665ced41.htm" />
+        <HelpTOCNode Title="Resume Method " Url="html/60683ffb-45a4-e264-3188-ed8795355560.htm" />
+        <HelpTOCNode Title="Seek Method " Url="html/311a2103-1402-bf20-9c71-977e9a7e40e6.htm" />
+        <HelpTOCNode Title="Stop Method " Url="html/5da86343-8da9-03fa-479e-520c50668838.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4e496c00-48f8-45f6-8823-391d11e7c725" Title="Player Properties" Url="html/7c68cf99-eb15-5cd8-e9f6-27a8991d7d7b.htm">
+        <HelpTOCNode Title="CurrentTime Property " Url="html/13623de1-c633-5acd-f907-65afd6689672.htm" />
+        <HelpTOCNode Title="Instance Property " Url="html/2cf085d1-48ee-7813-3d9d-9224349eb9c0.htm" />
+        <HelpTOCNode Title="PlaybackState Property " Url="html/28e3747c-bdfa-37f3-aa2f-937a308cd460.htm" />
+        <HelpTOCNode Title="TotalTime Property " Url="html/0a5cba36-72e9-92e4-aa42-6eff7e5346a1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fcc52545-e67d-4bbc-a957-beb399b806e9" Title="Player Events" Url="html/c03c4b4a-5f56-df7f-14b6-d3a252c40a0d.htm">
+        <HelpTOCNode Title="PlaybackEnded Event" Url="html/77fabd13-0787-bd76-ec41-a7b98409502b.htm" />
+        <HelpTOCNode Title="SongFinishedEvent Event" Url="html/bfb494f0-ea54-f98d-98a3-69f0561f9ac3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Player.SongFinished Delegate" Url="html/b79af322-5e9d-c768-b217-ce45fe3f0d6a.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="ef9158cd-e3ad-49bd-9886-25eb750a2793" Title="MSOE.MediaComplete.Lib.Playlists" Url="html/0683568c-1426-5827-798a-9f354779cac6.htm">
+    <HelpTOCNode Id="ab66ea79-7420-451e-b886-085cc83ac17c" Title="IPlaylistService Interface" Url="html/4057ffa0-f6d5-def6-15d7-96e432cfe0f7.htm">
+      <HelpTOCNode Id="db9c4195-7906-4b86-be66-6905aee8a1aa" Title="IPlaylistService Methods" Url="html/06940fb7-7353-75b1-16c3-ef0b0f06917b.htm">
+        <HelpTOCNode Title="Create Method " Url="html/56ea69f5-dd8a-2f12-fe98-5d23aa5e80e8.htm" />
+        <HelpTOCNode Id="410f80de-0504-46e5-8fcc-22ad2f8191fc" Title="CreatePlaylist Method " Url="html/3fc25f4c-abe7-89f5-a8d7-986573987e98.htm">
+          <HelpTOCNode Title="CreatePlaylist Method " Url="html/6140c195-869c-f645-0775-085b2a2cb21a.htm" />
+          <HelpTOCNode Title="CreatePlaylist Method (String)" Url="html/565fb951-d00c-42d8-8f65-a3d40af0baeb.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetAllPlaylists Method " Url="html/f95d64d8-0f39-3f0b-3e44-1514f8a22f54.htm" />
+        <HelpTOCNode Title="GetDirectoryInfo Method " Url="html/eed9ad88-eec7-7d14-aa90-f2beacea3034.htm" />
+        <HelpTOCNode Title="GetPlaylist Method " Url="html/485a19a3-7578-ce04-3b29-ee51048ba961.htm" />
+        <HelpTOCNode Title="ToMediaItem Method " Url="html/58837e38-be00-cda2-fbc9-74112effc44c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ec8b54cf-774f-4bf6-a8a5-f227dafc5e76" Title="Playlist Class" Url="html/e5952494-465f-9c3f-b7fb-82ff54b59d1e.htm">
+      <HelpTOCNode Title="Playlist Constructor " Url="html/a955efca-3481-f593-aef3-025caea1dae1.htm" />
+      <HelpTOCNode Id="befcf56f-a815-4f97-8f30-707a77ee9983" Title="Playlist Methods" Url="html/7be02630-a801-3e27-466d-04f1b4e211d2.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/b1e1f912-cb0d-5449-ee2d-85abd703fd40.htm" />
+        <HelpTOCNode Title="Save Method " Url="html/c1d10110-b03d-1d51-7e4a-5629126072bd.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/de9d3c15-38aa-e37b-97fc-fc07a5faf938.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9a754953-0be6-495f-86ce-fcaefd064523" Title="Playlist Properties" Url="html/42577922-4a55-2667-a8a2-f2216015c647.htm">
+        <HelpTOCNode Title="Songs Property " Url="html/9f36e448-d7e0-1cf5-1e47-4898f4baedc6.htm" />
+        <HelpTOCNode Title="Title Property " Url="html/e1a174cb-a69b-cf02-9bcf-d168c22dd975.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="de940f23-0ee7-45ea-a2db-64efc439a7ee" Title="PlaylistService Class" Url="html/87211b7a-670c-fbcd-7ce3-cfa9a02ccd85.htm">
+      <HelpTOCNode Id="1c29f096-13f0-4819-96be-9660af83f215" Title="PlaylistService Fields" Url="html/b8cd243b-89bf-c4ae-1a3a-24ea10e9b46b.htm">
+        <HelpTOCNode Title="PlaylistDefaultTitle Field" Url="html/49216558-062a-37db-348b-a3fa7c80f69c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5d5b145d-afb3-470b-b24f-82c57155a8ab" Title="PlaylistService Methods" Url="html/3948bf72-4b80-6252-a420-76b5726fce90.htm">
+        <HelpTOCNode Title="Create Method " Url="html/5d76b7b4-d6c7-2c3f-882c-dad280840955.htm" />
+        <HelpTOCNode Id="6153d75e-1a4b-483b-bdf3-8068a60d6b72" Title="CreatePlaylist Method " Url="html/a93b00c7-75ca-3d71-07e4-dd139a5261ed.htm">
+          <HelpTOCNode Title="CreatePlaylist Method " Url="html/38e5d2e2-fa6c-d7fd-cfcc-855b1d80e219.htm" />
+          <HelpTOCNode Title="CreatePlaylist Method (String)" Url="html/7a1780f8-d253-823b-763d-23812e786da9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetAllPlaylists Method " Url="html/b2cd3f3e-961d-bb17-b689-9f4f26668af6.htm" />
+        <HelpTOCNode Title="GetDirectoryInfo Method " Url="html/f513e084-563e-839b-9e83-a3de6405df16.htm" />
+        <HelpTOCNode Title="GetPlaylist Method " Url="html/a85c8683-4024-3db0-5eec-2a889c7b1302.htm" />
+        <HelpTOCNode Title="SetService Method " Url="html/3c196a41-6128-1c1c-8d2f-9a8080c2d303.htm" />
+        <HelpTOCNode Title="ToMediaItem Method " Url="html/d9b7c265-84a5-228d-989b-a0ed8280dbee.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b89d9afd-627b-4505-9a33-a7eb5dc12a94" Title="PlaylistServiceImpl Class" Url="html/e84ea7c7-12c6-79fc-29ac-a8ce2a0b1119.htm">
+      <HelpTOCNode Id="5bce6602-dbcd-46b7-aab4-3e9fa952b9b9" Title="PlaylistServiceImpl Methods" Url="html/db2bd57e-868f-d579-386a-ff57bbe5c1b1.htm">
+        <HelpTOCNode Title="Create Method " Url="html/77ca7665-b6f7-9ced-1ef2-7e6d48dd894f.htm" />
+        <HelpTOCNode Id="66d46182-d160-41ea-bda7-f8965a388583" Title="CreatePlaylist Method " Url="html/5317c88c-3cd3-12c5-1c09-e8aeb0ba8e6d.htm">
+          <HelpTOCNode Title="CreatePlaylist Method " Url="html/6f9bbc7d-8191-4d79-92a7-d64d89dca621.htm" />
+          <HelpTOCNode Title="CreatePlaylist Method (String)" Url="html/a9f14ca4-8155-6d2e-10df-ceac4ff00aac.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetAllPlaylists Method " Url="html/8c5ecbdb-1a04-ccda-da96-cfe1092ae923.htm" />
+        <HelpTOCNode Title="GetDirectoryInfo Method " Url="html/bbf5f025-7668-e510-7fdc-13fec93f3826.htm" />
+        <HelpTOCNode Title="GetPlaylist Method " Url="html/70e1172f-d1fe-6d1a-59a0-b5620872e4ff.htm" />
+        <HelpTOCNode Title="ToMediaItem Method " Url="html/cc3132c5-eb83-fa4b-b45f-178a4765952d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="8e1b823b-6122-44b6-9a09-f68ec1bf53b1" Title="MSOE.MediaComplete.Lib.Sorting" Url="html/20884eb2-c121-35d9-20cb-35b0451e1303.htm">
+    <HelpTOCNode Id="1d1a98cc-fe22-49f4-aff4-dae0bf5384c2" Title="Sorter Class" Url="html/25431b67-ebdf-fa06-0d28-a3513cfd6c3e.htm">
+      <HelpTOCNode Title="Sorter Constructor " Url="html/e295ea9b-8479-28c3-0a2e-c4c0f214d657.htm" />
+      <HelpTOCNode Id="73352c0c-eb5d-4757-804b-fb32e19cac44" Title="Sorter Methods" Url="html/43c539ba-7618-dabc-787b-d627e5cacb09.htm">
+        <HelpTOCNode Title="CalculateActionsAsync Method " Url="html/8c9f8d14-5e3a-e64c-77bf-43d358b90684.htm" />
+        <HelpTOCNode Title="Do Method " Url="html/dc0a4fad-ba6b-a49d-589c-3ba31b810851.htm" />
+        <HelpTOCNode Title="GetValidFileName Method " Url="html/110424e3-2952-a872-fe5f-901adb6ad7d1.htm" />
+        <HelpTOCNode Title="RemoveOther Method " Url="html/20762c2c-2909-779b-b79b-335c8edde90a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e5b87369-76c8-46df-8cf7-967f441c9359" Title="Sorter Properties" Url="html/57884355-d695-951c-2581-c4c22d8eef8a.htm">
+        <HelpTOCNode Title="Actions Property " Url="html/52bdd05a-f967-928f-4214-02be8ad51e97.htm" />
+        <HelpTOCNode Title="DupCount Property " Url="html/a359573e-5f59-f7bb-2402-09ee6e44b24e.htm" />
+        <HelpTOCNode Title="Files Property " Url="html/1e75c82c-c729-98d9-db01-48b878a9c6cb.htm" />
+        <HelpTOCNode Title="InvalidAfterTypes Property " Url="html/24d8c69b-ab5d-dd33-686e-f4a892459879.htm" />
+        <HelpTOCNode Title="InvalidBeforeTypes Property " Url="html/9f95eb99-066a-258b-7960-8ede38f7e059.htm" />
+        <HelpTOCNode Title="InvalidDuringTypes Property " Url="html/e6dea6b7-6a2b-4436-0d5a-b68a68dfea92.htm" />
+        <HelpTOCNode Title="MoveCount Property " Url="html/6a26f691-f626-ce7f-e4d5-6a2593c42aa7.htm" />
+        <HelpTOCNode Title="UnsortableCount Property " Url="html/8a2096e0-a77d-e1b5-a607-928db1c822a1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Sorter Events" Url="html/933c62bd-ccde-7eff-65a1-9151de5adba6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d4585e00-1b6e-47e9-87bc-9e9030f5ff3d" Title="Sorter.DeleteAction Class" Url="html/77fceb9e-1b34-e313-02c8-79911e9bcacb.htm">
+      <HelpTOCNode Title="Sorter.DeleteAction Constructor " Url="html/09c5bf19-a7b8-588b-bb6b-5ed6c5a441b9.htm" />
+      <HelpTOCNode Id="88717ffd-1702-4b39-af06-8902a0a97961" Title="DeleteAction Methods" Url="html/ccbeeae9-a93d-a5e2-03ca-5d13f40d48eb.htm">
+        <HelpTOCNode Title="Do Method " Url="html/91ae2c4c-6c1d-c8a3-9845-f97238b38cbf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a0136230-b7c7-46e7-bc62-de45e2356126" Title="DeleteAction Properties" Url="html/426ca480-79d0-6dbb-470d-edbf1eefacb4.htm">
+        <HelpTOCNode Title="Target Property " Url="html/82b36e30-72f8-867d-868b-b1711d2fac1e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e3af1f0b-3e2a-4f51-b987-62fcf5133030" Title="Sorter.IAction Interface" Url="html/26549960-7493-0e10-c4e8-1e7fc05eaaab.htm">
+      <HelpTOCNode Id="961f80d1-f573-4844-8dea-3bfe7ec2ce22" Title="IAction Methods" Url="html/57ecbd1d-f287-13cb-ec27-3bdcaaaae911.htm">
+        <HelpTOCNode Title="Do Method " Url="html/aa2e82e0-aa19-352f-5e18-bf250eda739d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a19aa23f-5ec2-415a-aab7-fcd02abc398c" Title="Sorter.MoveAction Class" Url="html/1dcb860d-ec44-325e-6302-45a4e5c5de31.htm">
+      <HelpTOCNode Title="Sorter.MoveAction Constructor " Url="html/77eaf098-7794-e50f-b8fa-52c5d5b4d7ca.htm" />
+      <HelpTOCNode Id="e5458c51-c593-41e4-9bbe-2c53f266805b" Title="MoveAction Methods" Url="html/72a720b9-e5e7-ac32-9df5-c85d166cdc4b.htm">
+        <HelpTOCNode Title="Do Method " Url="html/e27f62f3-6a1f-c61a-9802-3250a711a300.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b337927a-8975-4d69-bf25-7f609923118d" Title="MoveAction Properties" Url="html/674d22a2-fbb0-b59a-c96d-91fb0510d628.htm">
+        <HelpTOCNode Title="Dest Property " Url="html/cc093b24-2b8f-98da-d556-cd60b8373c3e.htm" />
+        <HelpTOCNode Title="Source Property " Url="html/723a9a71-d835-2964-1325-7040aa70bcdc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e67e412a-f8ac-48c9-8280-a86bb6141c72" Title="SortHelper Class" Url="html/816ae603-f790-cc15-e628-1ac0a0c2fbc5.htm">
+      <HelpTOCNode Id="d0fdee66-f786-4c93-867c-b628c1636ec5" Title="SortHelper Methods" Url="html/4c67dd1b-4def-805a-de7c-01375bcf3cbb.htm">
+        <HelpTOCNode Title="ConvertToMetaAttribute Method " Url="html/2488853a-0127-da45-37b3-3e841bcbd6d6.htm" />
+        <HelpTOCNode Title="ConvertToString Method " Url="html/1effba7d-48d5-79f0-ac58-71e1abcb5bb9.htm" />
+        <HelpTOCNode Title="GetAllUnusedMetaAttributes Method " Url="html/4d14ea48-0bc0-a7fa-138a-13c085c5bd68.htm" />
+        <HelpTOCNode Title="GetAllValidAttributes Method " Url="html/f4bc747c-1069-6297-f852-23b52b4f113a.htm" />
+        <HelpTOCNode Title="GetDefault Method " Url="html/0bbbb738-006a-2fe5-e4e8-ab0d2e08a2a3.htm" />
+        <HelpTOCNode Title="GetDefaultStringValues Method " Url="html/6ee4372e-5a48-0403-8d60-d73251e41823.htm" />
+        <HelpTOCNode Title="GetSorting Method " Url="html/70ed278d-a14b-ec6f-74e8-6e315df00301.htm" />
+        <HelpTOCNode Title="SetSorting Method " Url="html/47f68e07-95f5-67ec-8e3a-acea392c8b29.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
