@@ -53,16 +53,16 @@ h1,h2,h3,h4,h5,h6,p,span,div {
   text-align:center;
   color: #CCCCCC;
 }
-#email:link {
+#webzone:link {
   color: #AFAFBA;
 }
-#email:visited {
+#webzone:visited {
   color: #AFAFBA;
 }
-#email:hover {
+#webzone:hover {
   color: #4D4D67;
 }
-#email:active {
+#webzone:active {
   color: #AFAFBA;
 }
 
