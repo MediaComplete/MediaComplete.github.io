@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6,p,span,div {
 }
 
 .logo {
-  height: 300px;
+  height: 200px;
   width: auto;
 }
 
@@ -38,19 +38,43 @@ h1,h2,h3,h4,h5,h6,p,span,div {
   font-size: 1.2em;
 }
 
-.panel {
+#dlbox {
+  padding:10px;
+  background-color: #686868;
+  text-align:center;
+}
+
+#info {
   padding: 20px;
   background-color: #686868;
+  text-align:left;
+}
+#contact {
+  text-align:center;
+  color: #CCCCCC;
+}
+#email:link {
+  color: #AFAFBA;
+}
+#email:visited {
+  color: #AFAFBA;
+}
+#email:hover {
+  color: #4D4D67;
+}
+#email:active {
+  color: #AFAFBA;
 }
 
 .download {
   display:inline-block;
   background-color: #2D2D30;
-  color: #CCCCCC;
+  color: #AFAFBA;
   border-radius: 4px;
   text-decoration: none;
   padding: 15px;
   margin: 10px;
+  text-align:center;
 }
 .download:hover {
   text-decoration: underline;
@@ -61,7 +85,8 @@ h1,h2,h3,h4,h5,h6,p,span,div {
 }
 
 #info {
-  height: 500px;
+display:block;
+overflow:auto;
 }
 
 #footer {
