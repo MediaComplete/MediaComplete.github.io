@@ -8,28 +8,36 @@ body {
   margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p,span,div {
+a, h1,h2,h3,h4,h5,h6,p,span,div {
   color: #CCCCCC;
 }
 
+#navbar-header{
+  width: 70%;
+  background-color: #2D2D30;
+  color: #CCCCCC;
+  padding-right:30px;
+}
+.navbar{
+  background-color: #2D2D30;
+  color: #CCCCCC;
+  }
 .center {
   width: 70%;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
 }
-
 .logo {
   height: 200px;
   width: auto;
 }
-
 .center > h1 {
   color: #2D2D30;
 }
 
 .subtitle {
-  margin-top: -20;
+  margin-top: -10;
 }
 
 .subtitle {
@@ -43,15 +51,27 @@ h1,h2,h3,h4,h5,h6,p,span,div {
   background-color: #686868;
   text-align:center;
 }
+#dllink:hover{
+  color: #CCCCCC;
+}
+#dllink:focus{
+  color: #CCCCCC;
+}
 
 #info {
   padding: 20px;
   background-color: #686868;
   text-align:left;
+display:block;
+overflow:auto;
 }
+
 #contact {
   text-align:center;
   color: #CCCCCC;
+}
+a:hover, a:focus{
+  color: #AFAFBA;
 }
 #webzone:link {
   color: #AFAFBA;
@@ -82,11 +102,6 @@ h1,h2,h3,h4,h5,h6,p,span,div {
 
 .link {
   color: #20B2AA;
-}
-
-#info {
-display:block;
-overflow:auto;
 }
 
 #footer {
