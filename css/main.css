@@ -7,18 +7,36 @@ body {
   font-family: Sans-Serif;
   margin: 0;
 }
-
-a, h1,h2,h3,h4,h5,h6,p,span,div {
+a, h1,h2,h3,h4,h5,h6,p,span,html {
   color: #CCCCCC;
 }
 
 #navbar-header{
-  width: 70%;
+  width: 100%;
   background-color: #2D2D30;
   color: #CCCCCC;
   padding-right:30px;
 }
+#thanks{
+  padding-top:20px;
+  text-align: center;
+}
+.about{
+padding-bottom:20px;
+}
+.about img{
+height:4em;
+  float: left;
+}
+.about h1{
+    text-decoration: underline;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
 .navbar{
+	height:50px;
   background-color: #2D2D30;
   color: #CCCCCC;
   }
@@ -27,6 +45,7 @@ a, h1,h2,h3,h4,h5,h6,p,span,div {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  padding-bottom:60px;
 }
 .logo {
   height: 200px;
@@ -70,7 +89,7 @@ overflow:auto;
   text-align:center;
   color: #CCCCCC;
 }
-a:hover, a:focus{
+.about h1:hover, h1:focus{
   color: #AFAFBA;
 }
 #webzone:link {
@@ -103,14 +122,17 @@ a:hover, a:focus{
 .link {
   color: #20B2AA;
 }
+html{
 
+   position:relative;
+   min-height:100%;
+   }
 #footer {
-  width: 70%;
+height:60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #2D2D30;
   color: #CCCCCC;
-  padding: 20px;
-}
-
-.legalese {
-  font-size: 0.8em;
+  padding-top: 20px;
 }

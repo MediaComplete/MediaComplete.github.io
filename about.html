@@ -1,10 +1,10 @@
 <html>
   <head>
   <Title>About - MediaComplete</Title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
 	<div class="container" id="navbar-header">
 		<ul class="nav navbar-nav navbar">      
 			<li><a href="./index.html">Home</a></li>    
@@ -18,24 +18,36 @@
 		</div>
   </head>
   <body>
-    <div class="center">
-      <a href="./index.html"><img class="logo" src="./logo_large.png" /></a>
+	<div class="center">
+      <a href="./index.html"><img class="logo" src="./res/logo_large.png" /></a>
       <h1>Media Complete</h1>
       <p class="subtitle">Play music and restore your missing metadata</p>
 
       <div id="info" class="panel">
-          <h1><a href="https://github.com/tevert">Tyler Evert</a></h1>
+		  <div class="about">
+			  <a href="https://github.com/tevert"><img src="./res/Tyler.jpg"/><h1 >Tyler Evert</h1></a>
+		  </div>
 		  <p>Tyler has yet to comment on who he is.</p>
-		  <h1><a href="https://github.com/The9thPatriarch">Brian "BJ" Kramer</a></h1>
+		  
+		  <div class="about">          
+			  <a href="https://github.com/The9thPatriarch"><img   src="./res/BJ.png"/><h1>Brian "BJ" Kramer</h1></a>
+		  </div>
 		  <p>Brian is a software consultant with four years of experience developing banking systems.  He aspires to work on difficult algorithms in the backend.  He is also easily recognizable by the foliage sprouting from his lower face. If he were not so easily recognizable as a software engineer,  he could easily be mistaken for shrubbery.</p>
-		  <h1><a href="https://github.com/shankera">Arjun Shanker</a></h1>
-		  <p>Arjun works on the native mobile applications for an insurance company, which was helpfully preceded by a year of  WPF and .NET. He is currently drinking himself into oblivion.</p>
-		  <h4>A special thanks to Drew Murdoch who braved the depths of  NAudio and produced some stunning pearls of code.</h4>
+		
+		<div class="about">          
+			  <a href="https://github.com/shankera"><img src="./res/Arjun.png"/><h1>Arjun Shanker</h1></a>
+		  </div>
+		  <p >Arjun works on the native mobile applications for an insurance company, which was helpfully preceded by a year of  WPF and .NET. He is currently drinking himself into oblivion.</p>
+		  
+		  <h4 id="thanks">A special thanks to Drew Murdoch who braved the depths of  NAudio and produced some stunning pearls of code.</h4>
 	  <h2 id="contact">Contact us at MC.VoidPointer@gmail.com</h2>
       </div>
     </div>
-    <div id="footer" class="center">
+	
+	<div id="footer">
+      <div class="container">
       <p class="legalese">Application is provided under the <a class="link" href="http://opensource.org/licenses/MIT">MIT license</a>. Application is still in early development, and we are not liable for any lost files, rogue velociraptor attacks, or feelings of unfulfillment.</p>
+      </div>
     </div>
   </body>
 </html>
