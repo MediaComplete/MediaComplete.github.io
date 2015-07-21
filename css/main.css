@@ -22,7 +22,7 @@ a, h1,h2,h3,h4,h5,h6,p,span,html {
   text-align: center;
 }
 .about{
-padding-bottom:20px;
+padding-bottom:25px;
 }
 .about img{
 height:4em;
@@ -33,7 +33,16 @@ height:4em;
   position: relative;
   top: 15px;
   left: 10px;
+  display:inline;
 }
+
+.about h2{
+  position: relative;
+  display:inline;
+  float: right;
+  top:0px;
+  bottom:0px;
+  }
 
 .navbar{
 	height:50px;
