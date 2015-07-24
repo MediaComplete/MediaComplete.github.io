@@ -18,8 +18,10 @@ a, h1,h2,h3,h4,h5,h6,p,span,html {
   padding-right:30px;
 }
 #thanks{
-  padding-top:20px;
   text-align: center;
+}
+.blurb{
+	padding-bottom:30px;
 }
 .about{
 padding-bottom:25px;
@@ -57,7 +59,8 @@ height:4em;
   padding-bottom:60px;
 }
 .logo {
-  height: 200px;
+  padding-top:40px;
+  height: 240px;
   width: auto;
 }
 .center > h1 {
@@ -102,11 +105,14 @@ overflow:auto;
 .about h1:hover, h1:focus{
   color: #AFAFBA;
 }
+#drew{
+  text-decoration: underline;
+}
 #drew:hover{
-	#CCCCCC
+	color:#AFAFBA
 }
 #drew:focus{
-	#CCCCCC
+	color:#AFAFBA
 }
 #webzone:link {
   color: #AFAFBA;
