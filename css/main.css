@@ -102,6 +102,12 @@ overflow:auto;
 .about h1:hover, h1:focus{
   color: #AFAFBA;
 }
+#drew:hover{
+	#CCCCCC
+}
+#drew:focus{
+	#CCCCCC
+}
 #webzone:link {
   color: #AFAFBA;
 }
