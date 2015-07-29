@@ -160,3 +160,27 @@ height:60px;
   color: #CCCCCC;
   padding-top: 20px;
 }
+
+.carousel{
+   height:600px;
+    width: 100% !important;
+	margin-bottom:20px;
+}
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	margin-right: auto;
+	margin-left: auto;
+	width:519px;
+	height:600px;
+}
+#settings {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:12.5%;
+	margin-bottom:auto;
+	height:369.44px;
+	width:519px;
+}
