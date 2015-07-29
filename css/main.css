@@ -17,6 +17,12 @@ a, h1,h2,h3,h4,h5,h6,p,span,html {
   color: #CCCCCC;
   padding-right:30px;
 }
+.icons{
+	text-align:center;
+}
+.icons img{
+	height:30px;
+}
 #thanks{
   text-align: center;
 }
@@ -31,7 +37,6 @@ height:4em;
   float: left;
 }
 .about h1{
-    text-decoration: underline;
   position: relative;
   top: 15px;
   left: 10px;
@@ -101,9 +106,6 @@ overflow:auto;
 #contact {
   text-align:center;
   color: #CCCCCC;
-}
-.about h1:hover, h1:focus{
-  color: #AFAFBA;
 }
 #drew{
   text-decoration: underline;
