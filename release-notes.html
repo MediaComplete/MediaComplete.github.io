@@ -25,8 +25,16 @@
       <p class="subtitle">Play music and restore your missing metadata</p>
 
       <div id="info" class="panel">
+          <h1>Release 0.1.1</h1>
+		  <ul>
+			  <li class="bug">Bug fix: Application should no longer crash when files or folders are modified from outside of the application, while the application is running</li>
+			  <li class="bug">Bug fix: Fixed a graphical bug when double clicking the currently playing song in the now playing list</li>
+			  <li class="bug">Bug fix: Changing directories now updates the UI with the new library's songs</li>
+			  <li class="bug">Bug fix: Pressing play with no song selected now plays the first song in the song list, and adds all visible songs to the now playing list</li>
+			  <li>Improvements were made to the code base to hopefully allow for easier accessibility</li>
+		  </ul>
           <h1>Release 0.1.0</h1>
-		  <p>We are aware of some major issues with the sort algorithm, as well as crashes as a result of users modifying files from outside of the application while the application is running.</p>
+		  <p class="bug">We are aware of some major issues with the sort algorithm, as well as crashes as a result of users modifying files from outside of the application while the application is running.</p>
 		  <ul>
 			  <li>Songs can be played</li>
 			  <li>Library sort is mostly functional, but there are some issues cleaning up directories and non-music files</li>

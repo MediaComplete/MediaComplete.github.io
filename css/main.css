@@ -160,7 +160,9 @@ height:60px;
   color: #CCCCCC;
   padding-top: 20px;
 }
-
+.bug{
+	color:red;
+}
 .carousel{
    height:600px;
     width: 100% !important;
