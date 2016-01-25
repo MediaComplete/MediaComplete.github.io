@@ -1,7 +1,7 @@
 <html>
   <head>
   <Title>MediaComplete</Title>
-  <link rel="shortcut icon" href="./res/favicon.ico">
+  <link rel="shortcut icon" href="./res/logo_small.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +19,16 @@
 		</div>
   </head>
   <body>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66502028-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     <div class="center">
       <a href="./index.html"><img class="logo" src="./res/logo_large.png" /></a>
       <h1>Media Complete</h1>
@@ -63,6 +73,14 @@
 		  <div id="dlbox" class="panel">
 			  <a id="dllink" class="download" href="./download/MediaComplete.exe">Download V 0.1.0 for Windows: <span class="link">MediaComplete.exe</span></a>
 		  </div>
+          <h1>Release 0.1.1</h1>
+		  <ul>
+			  <li class="bug">Bug fix: Application should no longer crash when files or folders are modified from outside of the application, while the application is running</li>
+			  <li class="bug">Bug fix: Fixed a graphical bug when double clicking the currently playing song in the now playing list</li>
+			  <li class="bug">Bug fix: Changing directories now updates the UI with the new library's songs</li>
+			  <li class="bug">Bug fix: Pressing play with no song selected now plays the first song in the song list, and adds all visible songs to the now playing list</li>
+			  <li>Improvements were made to the code base to hopefully allow for easier accessibility</li>
+		  </ul>
           <h2>What is Media Complete?</h2>
 		  <p>Media Complete is a desktop application for Windows that quickly and easily allows you to manage a library of music.</p>
 		  <h2>What can I do with Media Complete?</h2>
