@@ -7,14 +7,13 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
 	<div class="container" id="navbar-header">
-		<ul class="nav navbar-nav navbar"> 
+		<ul class="nav navbar-nav navbar">
 			<li><a href="./index.html">Home</a></li>
 			<li><a href="./release-notes.html">Release Notes </a></li>
-			<li><a href="./Documentation/API/index.html">Documentation</a></li>
 			<li><a href="https://github.com/MediaComplete/MediaComplete">GitHub</a></li>
 		</ul>
-		<ul class="nav navbar-nav navbar-right">          
-			<li><a  class="bordered last"  href="./about.html">About</a></li>          
+		<ul class="nav navbar-nav navbar-right">
+			<li><a  class="bordered last"  href="./about.html">About</a></li>
         </ul>
 		</div>
   </head>
@@ -71,15 +70,14 @@
 	</div>
       <div id="info" class="panel">
 		  <div id="dlbox" class="panel">
-			  <a id="dllink" class="download" href="./download/MediaComplete.exe">Download V 0.1.0 for Windows: <span class="link">MediaComplete.exe</span></a>
+			  <a id="dllink" class="download" href="./download/MediaComplete.exe">Download V 0.1.2 for Windows: <span class="link">MediaComplete.exe</span></a>
 		  </div>
-          <h1>Release 0.1.1</h1>
+          <h1>Release 0.1.2</h1>
 		  <ul>
-			  <li class="bug">Bug fix: Application should no longer crash when files or folders are modified from outside of the application, while the application is running</li>
-			  <li class="bug">Bug fix: Fixed a graphical bug when double clicking the currently playing song in the now playing list</li>
-			  <li class="bug">Bug fix: Changing directories now updates the UI with the new library's songs</li>
-			  <li class="bug">Bug fix: Pressing play with no song selected now plays the first song in the song list, and adds all visible songs to the now playing list</li>
-			  <li>Improvements were made to the code base to hopefully allow for easier accessibility</li>
+			  <li class="bug">Bug fix: We added some handling for many of the errors that were causing app crashes</li>
+			  <li>Increased load-time performance</li>
+			  <li class="bug">Bug fix: Fixed an issue where a first-time install would not allow the user to use the application</li>
+			  <li class="bug">Bug fix: Double clicking on a folder in the library will now play the music within that folder</li>
 		  </ul>
           <h2>What is Media Complete?</h2>
 		  <p>Media Complete is a desktop application for Windows that quickly and easily allows you to manage a library of music.</p>
